@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bastanteo-tfm"
+version = "0.1.0"
+description = "Pipeline agentic de bastanteo documental (parser -> normalizador -> RAG -> agente -> UI). Proyecto unico para TFM y Proyecto Final de Curso (SpecDD)."
+requires-python = ">=3.10"
+dependencies = [
+    "datalab-python-sdk",
+    "python-dotenv",
+    "jsonschema",
+    "pydantic>=2",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "pytest-mock",
+]
+
+# --- Nota de estructura de carpetas ---
+# Las carpetas de primer nivel (01_admin, 03_data, 04_src, 05_eval, 06_docs) mantienen
+# la numeracion definida en el Hilo 04 por claridad de proceso/CRISP-DM. "04_src" NO es
+# un paquete Python valido (un identificador no puede empezar por un digito), asi que se
+# usa aqui como "src layout": el contenido real importable vive en sus subcarpetas
+# (parser, normalizer, rag, agent, ui), que SI son paquetes validos.
+# Tras `pip install -e .` podras hacer `import parser`, `import normalizer`, etc.
+# desde cualquier sitio, sin tener que escribir `04_src.parser` (que fallaria).
+[tool.setuptools]
+package-dir = {"" = "04_src"}
+
+[tool.setuptools.packages.find]
+where = ["04_src"]
