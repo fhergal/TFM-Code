@@ -1,0 +1,220 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://tfm-bastanteo.local/schemas/canonical-document-parse-v1.1.json",
+  "title": "CanonicalDocumentParse",
+  "description": "Esquema unificado v1.1 (fusión de la versión del Anexo B del TFM v1.4 y de la versión del Hilo-02). Ver canonical-document-parse-v1.1.md para el rationale y la tabla de mapeo.",
+  "type": "object",
+  "required": ["schema_version", "case_id", "procedure_type", "document_inventory"],
+  "properties": {
+    "schema_version": { "type": "string", "const": "1.1" },
+    "case_id": { "type": "string" },
+    "procedure_type": { "type": "string" },
+    "source_batch_id": { "type": "string" },
+    "created_at": { "type": "string", "format": "date-time" },
+
+    "parser": {
+      "type": "object",
+      "properties": {
+        "canonical_parser": { "type": "string" },
+        "parser_family": { "type": "string" },
+        "model_version": { "type": "string" },
+        "raw_output_format": { "type": "string", "enum": ["json", "markdown", "html"] },
+        "confidence_global": { "type": "number", "minimum": 0, "maximum": 1 }
+      }
+    },
+
+    "case_context": {
+      "type": "object",
+      "properties": {
+        "domain": { "type": "string" },
+        "language_expected": { "type": "array", "items": { "type": "string" } },
+        "country": { "type": "string" }
+      }
+    },
+
+    "expected_document_map": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["document_type", "required"],
+        "properties": {
+          "document_type": { "type": "string" },
+          "required": {
+            "anyOf": [
+              { "type": "boolean" },
+              { "type": "string", "enum": ["condicional"] }
+            ]
+          }
+        }
+      }
+    },
+
+    "document_inventory": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/document" }
+    },
+
+    "bastanteo_evidence": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/evidence" }
+    },
+
+    "bastanteo_gold": {
+      "type": "object",
+      "properties": {
+        "status": { "type": "string", "enum": ["VALIDO", "INCOMPLETO", "RECHAZADO"] },
+        "notes": { "type": "string" }
+      }
+    }
+  },
+
+  "definitions": {
+    "bbox": {
+      "type": "object",
+      "required": ["x0", "y0", "x1", "y1", "unit"],
+      "properties": {
+        "x0": { "type": "number" },
+        "y0": { "type": "number" },
+        "x1": { "type": "number" },
+        "y1": { "type": "number" },
+        "unit": { "type": "string", "enum": ["pixel", "point", "mm"] }
+      }
+    },
+
+    "document": {
+      "type": "object",
+      "required": ["document_id", "document_type_pred", "origin", "document_metadata", "pages"],
+      "properties": {
+        "document_id": { "type": "string" },
+        "document_type_pred": { "type": "string" },
+        "document_type_gold": { "type": "string" },
+        "origin": {
+          "type": "object",
+          "properties": {
+            "source_format": { "type": "string", "enum": ["scan", "native_pdf", "photo", "rendered_image"] },
+            "file_name": { "type": "string" },
+            "mime_type": { "type": "string" },
+            "page_count": { "type": "integer", "minimum": 1 },
+            "input_channel": { "type": "string" }
+          }
+        },
+        "document_metadata": {
+          "type": "object",
+          "properties": {
+            "issuer_org": { "type": "string" },
+            "document_date": { "type": "string", "format": "date" },
+            "language": { "type": "string" },
+            "signature_status": { "type": "string" },
+            "legibility_level": { "type": "string" },
+            "template_version": { "type": "string" }
+          }
+        },
+        "pages": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/page" }
+        },
+        "extracted_fields": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/extracted_field" }
+        }
+      }
+    },
+
+    "page": {
+      "type": "object",
+      "required": ["page_number", "blocks"],
+      "properties": {
+        "page_number": { "type": "integer", "minimum": 1 },
+        "page_size": {
+          "type": "object",
+          "properties": {
+            "width": { "type": "number" },
+            "height": { "type": "number" },
+            "unit": { "type": "string" }
+          }
+        },
+        "blocks": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/block" }
+        }
+      }
+    },
+
+    "block": {
+      "type": "object",
+      "required": ["block_id", "block_type", "text", "bbox"],
+      "properties": {
+        "block_id": { "type": "string" },
+        "block_type": {
+          "type": "string",
+          "enum": ["title", "section_header", "paragraph", "form_field", "key_value", "table", "table_row", "table_cell", "checkbox", "signature", "stamp", "image_region", "footer", "header", "free_note"]
+        },
+        "label": { "type": "string" },
+        "text": { "type": "string" },
+        "normalized_text": { "type": "string" },
+        "bbox": { "$ref": "#/definitions/bbox" },
+        "reading_order": { "type": "integer" },
+        "semantics": {
+          "type": "object",
+          "properties": {
+            "entity_type": {
+              "type": "string",
+              "enum": ["dni", "nuss", "person_name", "address", "date", "document_number", "issuer_org", "procedure_type", "signature_presence", "stamp_presence", "mandatory_clause"]
+            },
+            "section": { "type": "string" },
+            "required_for_bastanteo": { "type": "boolean" }
+          }
+        },
+        "quality": {
+          "type": "object",
+          "properties": {
+            "confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+            "ocr_noise_level": { "type": "string", "enum": ["low", "medium", "high"] },
+            "handwritten": { "type": "boolean" },
+            "crossed_out": { "type": "boolean" }
+          }
+        }
+      }
+    },
+
+    "extracted_field": {
+      "type": "object",
+      "required": ["field_id", "field_name", "field_value", "source_block_ids", "is_required"],
+      "properties": {
+        "field_id": { "type": "string" },
+        "field_name": { "type": "string" },
+        "field_value": { "type": "string" },
+        "field_value_raw": { "type": "string" },
+        "confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+        "source_block_ids": { "type": "array", "items": { "type": "string" } },
+        "field_bbox": { "$ref": "#/definitions/bbox" },
+        "is_required": { "type": "boolean" },
+        "validation": {
+          "type": "object",
+          "properties": {
+            "status": { "type": "string", "enum": ["valid", "invalid", "unverified"] },
+            "rule": { "type": "string" }
+          }
+        }
+      }
+    },
+
+    "evidence": {
+      "type": "object",
+      "required": ["evidence_id", "claim", "status", "linked_document_id"],
+      "properties": {
+        "evidence_id": { "type": "string" },
+        "requirement_id": { "type": "string" },
+        "evidence_type": { "type": "string", "enum": ["field", "block", "signature", "stamp", "document"] },
+        "claim": { "type": "string" },
+        "status": { "type": "string", "enum": ["supported", "contradicted", "missing"] },
+        "linked_document_id": { "type": "string" },
+        "linked_page": { "type": "integer" },
+        "linked_bbox": { "$ref": "#/definitions/bbox" },
+        "source_block_ids": { "type": "array", "items": { "type": "string" } },
+        "span_text": { "type": "string" },
+        "justification_text": { "type": "string" }
+      }
+    }
+  }
+}

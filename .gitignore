@@ -1,0 +1,37 @@
+# Entornos y dependencias
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+node_modules/
+
+# Config y secretos
+.env
+.env.*
+*.key
+
+# Datos y artefactos pesados (el dataset sintético y los índices no van al repo)
+03_data/raw/
+03_data/generated/
+03_data/**/*.jpg
+03_data/**/*.jpeg
+03_data/**/*.png
+05_eval/results/*.json
+*.chroma/
+chroma_db/
+*.index
+
+# Checkpoints / pesos de modelo
+*.ckpt
+*.safetensors
+*.bin
+models/
+
+# Estado local de Claude Code (no compartir entre máquinas)
+.claude/tdd-guard/
+
+# SO / editor
+.DS_Store
+Thumbs.db
+.vscode/
