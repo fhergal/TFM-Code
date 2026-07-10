@@ -118,7 +118,11 @@ def flatten_marker_tree(raw_json: dict[str, Any], document_id: str) -> list[dict
         if node_type not in ("Document", "Page"):
             text = _get_text(node)
             bbox = _get_bbox(node)
-            if text or bbox:
+            # bbox es un campo obligatorio en el esquema v1.1 (es la base del
+            # "RAG layout-aware"): si un nodo no trae bbox ni polygon, no
+            # podemos emitirlo como bloque valido, asi que se descarta aqui
+            # en vez de dejar que falle mas tarde la validacion del schema.
+            if bbox is not None:
                 reading_order += 1
                 blocks.append(
                     {

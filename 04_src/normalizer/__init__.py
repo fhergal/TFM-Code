@@ -49,6 +49,22 @@ def _now_iso() -> str:
     return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
 
+def _compact(obj: Any) -> Any:
+    """Elimina recursivamente las claves cuyo valor es None.
+
+    Necesario porque el JSON Schema v1.1 declara los campos opcionales con
+    tipos estrictos (string/object/etc.) SIN admitir null: si dejaramos
+    `"document_date": None` en el dict, `json.dumps` lo convertiria en
+    `null` y la validacion fallaria por tipo incorrecto. Mejor omitir del
+    todo el campo cuando aun no se conoce su valor, en vez de mandarlo a null.
+    """
+    if isinstance(obj, dict):
+        return {k: _compact(v) for k, v in obj.items() if v is not None}
+    if isinstance(obj, list):
+        return [_compact(v) for v in obj]
+    return obj
+
+
 def _group_blocks_by_page(blocks: list[dict[str, Any]]) -> list[dict[str, Any]]:
     pages: dict[int, list[dict[str, Any]]] = {}
     for block in blocks:
@@ -90,7 +106,7 @@ def build_document_entry(
     source_path = getattr(parser_result, "source_path", None)
     page_count = getattr(parser_result, "page_count", None)
 
-    return {
+    entry = {
         "document_id": document_id,
         "document_type_pred": document_type_pred,
         "document_type_gold": document_type_gold,
@@ -113,6 +129,7 @@ def build_document_entry(
         "pages": pages,
         "extracted_fields": [],
     }
+    return _compact(entry)
 
 
 def build_case_envelope(
@@ -126,7 +143,7 @@ def build_case_envelope(
     objeto de nivel "expediente" del esquema v1.1."""
     model_name = getattr(parser_result, "model_name", "unknown")
 
-    return {
+    envelope = {
         "schema_version": "1.1",
         "case_id": case_id,
         "procedure_type": procedure_type,
@@ -149,6 +166,7 @@ def build_case_envelope(
         "bastanteo_evidence": [],
         "bastanteo_gold": None,
     }
+    return _compact(envelope)
 
 
 def validate(payload: dict[str, Any], part: str = "case") -> None:
