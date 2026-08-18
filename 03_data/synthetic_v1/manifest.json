@@ -1,0 +1,142 @@
+[
+  {
+    "case_id": "EXP-SYN-0001",
+    "file": "EXP-SYN-0001.json",
+    "escenario": "rechazado",
+    "status_gold": "RECHAZADO",
+    "n_documentos": 5
+  },
+  {
+    "case_id": "EXP-SYN-0002",
+    "file": "EXP-SYN-0002.json",
+    "escenario": "valido",
+    "status_gold": "VALIDO",
+    "n_documentos": 5
+  },
+  {
+    "case_id": "EXP-SYN-0003",
+    "file": "EXP-SYN-0003.json",
+    "escenario": "incompleto",
+    "status_gold": "INCOMPLETO",
+    "n_documentos": 3
+  },
+  {
+    "case_id": "EXP-SYN-0004",
+    "file": "EXP-SYN-0004.json",
+    "escenario": "valido",
+    "status_gold": "VALIDO",
+    "n_documentos": 4
+  },
+  {
+    "case_id": "EXP-SYN-0005",
+    "file": "EXP-SYN-0005.json",
+    "escenario": "valido",
+    "status_gold": "VALIDO",
+    "n_documentos": 4
+  },
+  {
+    "case_id": "EXP-SYN-0006",
+    "file": "EXP-SYN-0006.json",
+    "escenario": "incompleto",
+    "status_gold": "INCOMPLETO",
+    "n_documentos": 3
+  },
+  {
+    "case_id": "EXP-SYN-0007",
+    "file": "EXP-SYN-0007.json",
+    "escenario": "incompleto",
+    "status_gold": "INCOMPLETO",
+    "n_documentos": 3
+  },
+  {
+    "case_id": "EXP-SYN-0008",
+    "file": "EXP-SYN-0008.json",
+    "escenario": "rechazado",
+    "status_gold": "RECHAZADO",
+    "n_documentos": 4
+  },
+  {
+    "case_id": "EXP-SYN-0009",
+    "file": "EXP-SYN-0009.json",
+    "escenario": "valido",
+    "status_gold": "VALIDO",
+    "n_documentos": 5
+  },
+  {
+    "case_id": "EXP-SYN-0010",
+    "file": "EXP-SYN-0010.json",
+    "escenario": "incompleto",
+    "status_gold": "INCOMPLETO",
+    "n_documentos": 4
+  },
+  {
+    "case_id": "EXP-SYN-0011",
+    "file": "EXP-SYN-0011.json",
+    "escenario": "rechazado",
+    "status_gold": "RECHAZADO",
+    "n_documentos": 6
+  },
+  {
+    "case_id": "EXP-SYN-0012",
+    "file": "EXP-SYN-0012.json",
+    "escenario": "valido",
+    "status_gold": "VALIDO",
+    "n_documentos": 4
+  },
+  {
+    "case_id": "EXP-SYN-0013",
+    "file": "EXP-SYN-0013.json",
+    "escenario": "valido",
+    "status_gold": "VALIDO",
+    "n_documentos": 4
+  },
+  {
+    "case_id": "EXP-SYN-0014",
+    "file": "EXP-SYN-0014.json",
+    "escenario": "valido",
+    "status_gold": "VALIDO",
+    "n_documentos": 4
+  },
+  {
+    "case_id": "EXP-SYN-0015",
+    "file": "EXP-SYN-0015.json",
+    "escenario": "valido",
+    "status_gold": "VALIDO",
+    "n_documentos": 5
+  },
+  {
+    "case_id": "EXP-SYN-0016",
+    "file": "EXP-SYN-0016.json",
+    "escenario": "incompleto",
+    "status_gold": "INCOMPLETO",
+    "n_documentos": 4
+  },
+  {
+    "case_id": "EXP-SYN-0017",
+    "file": "EXP-SYN-0017.json",
+    "escenario": "valido",
+    "status_gold": "VALIDO",
+    "n_documentos": 5
+  },
+  {
+    "case_id": "EXP-SYN-0018",
+    "file": "EXP-SYN-0018.json",
+    "escenario": "valido",
+    "status_gold": "VALIDO",
+    "n_documentos": 4
+  },
+  {
+    "case_id": "EXP-SYN-0019",
+    "file": "EXP-SYN-0019.json",
+    "escenario": "valido",
+    "status_gold": "VALIDO",
+    "n_documentos": 5
+  },
+  {
+    "case_id": "EXP-SYN-0020",
+    "file": "EXP-SYN-0020.json",
+    "escenario": "valido",
+    "status_gold": "VALIDO",
+    "n_documentos": 4
+  }
+]
