@@ -1,0 +1,115 @@
+{
+  "n_cases": 9,
+  "case_ids": [
+    "EXP-SYN-0002",
+    "EXP-SYN-0004",
+    "EXP-SYN-0005",
+    "EXP-SYN-0003",
+    "EXP-SYN-0006",
+    "EXP-SYN-0007",
+    "EXP-SYN-0001",
+    "EXP-SYN-0008",
+    "EXP-SYN-0011"
+  ],
+  "sweep": [
+    {
+      "min_score": 0.0,
+      "status_accuracy_global": 0.3333333333333333,
+      "requisito_accuracy_mean": 0.6851851851851852,
+      "latency_mean_ms": 1.6105111110138952,
+      "scenario_accuracy": {
+        "VALIDO": 1.0,
+        "INCOMPLETO": 0.0,
+        "RECHAZADO": 0.0
+      }
+    },
+    {
+      "min_score": 0.05,
+      "status_accuracy_global": 0.3333333333333333,
+      "requisito_accuracy_mean": 0.6851851851851852,
+      "latency_mean_ms": 1.0447222222056654,
+      "scenario_accuracy": {
+        "VALIDO": 1.0,
+        "INCOMPLETO": 0.0,
+        "RECHAZADO": 0.0
+      }
+    },
+    {
+      "min_score": 0.1,
+      "status_accuracy_global": 0.3333333333333333,
+      "requisito_accuracy_mean": 0.6851851851851852,
+      "latency_mean_ms": 0.7755777777573611,
+      "scenario_accuracy": {
+        "VALIDO": 1.0,
+        "INCOMPLETO": 0.0,
+        "RECHAZADO": 0.0
+      }
+    },
+    {
+      "min_score": 0.15,
+      "status_accuracy_global": 0.6666666666666666,
+      "requisito_accuracy_mean": 1.0,
+      "latency_mean_ms": 0.7915333332372635,
+      "scenario_accuracy": {
+        "VALIDO": 1.0,
+        "INCOMPLETO": 1.0,
+        "RECHAZADO": 0.0
+      }
+    },
+    {
+      "min_score": 0.2,
+      "status_accuracy_global": 0.6666666666666666,
+      "requisito_accuracy_mean": 1.0,
+      "latency_mean_ms": 0.8077777777846981,
+      "scenario_accuracy": {
+        "VALIDO": 1.0,
+        "INCOMPLETO": 1.0,
+        "RECHAZADO": 0.0
+      }
+    },
+    {
+      "min_score": 0.25,
+      "status_accuracy_global": 0.6666666666666666,
+      "requisito_accuracy_mean": 1.0,
+      "latency_mean_ms": 0.7065444447612713,
+      "scenario_accuracy": {
+        "VALIDO": 1.0,
+        "INCOMPLETO": 1.0,
+        "RECHAZADO": 0.0
+      }
+    },
+    {
+      "min_score": 0.3,
+      "status_accuracy_global": 0.3333333333333333,
+      "requisito_accuracy_mean": 0.9444444444444444,
+      "latency_mean_ms": 0.8086999998542725,
+      "scenario_accuracy": {
+        "VALIDO": 0.0,
+        "INCOMPLETO": 1.0,
+        "RECHAZADO": 0.0
+      }
+    },
+    {
+      "min_score": 0.35,
+      "status_accuracy_global": 0.3333333333333333,
+      "requisito_accuracy_mean": 0.925925925925926,
+      "latency_mean_ms": 0.7186444444313465,
+      "scenario_accuracy": {
+        "VALIDO": 0.0,
+        "INCOMPLETO": 1.0,
+        "RECHAZADO": 0.0
+      }
+    },
+    {
+      "min_score": 0.4,
+      "status_accuracy_global": 0.3333333333333333,
+      "requisito_accuracy_mean": 0.7592592592592592,
+      "latency_mean_ms": 0.8913999996972658,
+      "scenario_accuracy": {
+        "VALIDO": 0.0,
+        "INCOMPLETO": 1.0,
+        "RECHAZADO": 0.0
+      }
+    }
+  ]
+}

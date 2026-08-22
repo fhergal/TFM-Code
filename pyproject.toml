@@ -12,6 +12,11 @@ dependencies = [
     "python-dotenv",
     "jsonschema",
     "pydantic>=2",
+    "llama-index-core",
+    "llama-index-vector-stores-chroma",
+    "llama-index-embeddings-huggingface",
+    "chromadb",
+    "gradio",
 ]
 
 [project.optional-dependencies]
@@ -33,3 +38,6 @@ package-dir = {"" = "04_src"}
 
 [tool.setuptools.packages.find]
 where = ["04_src"]
+
+[tool.setuptools.package-data]
+ui = ["sample_case.json"]

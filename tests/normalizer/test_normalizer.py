@@ -116,7 +116,7 @@ def _fake_parser_result(raw=SAMPLE_MARKER_TREE):
         model_name="datalab-managed-convert(mode=balanced)",
         output_format="json",
         page_count=1,
-        quality_score=4.1,
+        quality_score=0.91,
         elapsed_seconds=1.23,
         extra_metadata={},
     )

@@ -12,10 +12,15 @@ Uso tipico:
 """
 
 from .base import DocumentParser, ParserResult
+from .chandra_hf_client import ChandraHFParser
 from .datalab_client import DatalabParser
 
 _BACKENDS = {
     "datalab": DatalabParser,
+    # Pendiente de GPU (ver chandra_hf_client.py): registrado ya para que la
+    # futura comparativa Datalab-vs-Chandra-local solo requiera cambiar este
+    # string, sin tocar normalizer/ ni el resto del pipeline.
+    "chandra-hf": ChandraHFParser,
 }
 
 

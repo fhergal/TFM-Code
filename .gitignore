@@ -22,6 +22,9 @@ node_modules/
 chroma_db/
 *.index
 
+# Artefactos de build de Python
+*.egg-info/
+
 # Checkpoints / pesos de modelo
 *.ckpt
 *.safetensors
