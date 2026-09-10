@@ -9,18 +9,38 @@ node_modules/
 # Config y secretos
 .env
 .env.*
+!.env.example
 *.key
 
 # Datos y artefactos pesados (el dataset sintético y los índices no van al repo)
 03_data/raw/
 03_data/generated/
+03_data/demo_real/
+03_data/private/
 03_data/**/*.jpg
 03_data/**/*.jpeg
 03_data/**/*.png
 05_eval/results/*.json
 *.chroma/
 chroma_db/
+chroma_data/
+data/chroma/
 *.index
+*.sqlite3
+*.db
+
+# Documentos de prueba no versionables
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.tiff
+
+# Salidas y resultados de evaluación (mantener en local, no en repo)
+resultados_*.json
+*_output.json
+*_response.json
+EVALUACION_FASE3_README.md
 
 # Artefactos de build de Python
 *.egg-info/
@@ -33,6 +53,10 @@ models/
 
 # Estado local de Claude Code (no compartir entre máquinas)
 .claude/tdd-guard/
+
+# Basura local
+tree.txt
+evidencia_defensa_*/
 
 # SO / editor
 .DS_Store
