@@ -57,11 +57,10 @@ def _finalize_chunk(
         "metadata": {
             "case_id": case_id,
             "document_id": document_id,
-            "page_number": page_number,
+            "page_number": str(page_number),
             "section": None if section == _NO_SECTION else section,
-            "block_ids": [b["block_id"] for b in blocks],
-            "block_types": sorted({b["block_type"] for b in blocks}),
-            "bbox": _envelope_bbox(blocks),
+            "block_ids": ",".join(b["block_id"] for b in blocks),
+            "block_types": ",".join(sorted({b["block_type"] for b in blocks})),
         },
     }
 

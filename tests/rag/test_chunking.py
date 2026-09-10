@@ -35,7 +35,7 @@ def test_groups_consecutive_blocks_of_same_section_into_one_chunk():
 
     assert len(chunks) == 1
     assert chunks[0]["metadata"]["section"] == "datos_solicitante"
-    assert chunks[0]["metadata"]["block_ids"] == ["b1", "b2"]
+    assert chunks[0]["metadata"]["block_ids"] == "b1,b2"
     assert "DNI: 123" in chunks[0]["text"] and "Nombre: Ana" in chunks[0]["text"]
 
 
@@ -85,22 +85,29 @@ def test_header_block_is_prepended_not_emitted_as_its_own_chunk():
     assert "h1" not in chunks[0]["metadata"]["block_ids"]
 
 
-def test_bbox_envelope_covers_all_blocks_in_chunk():
-    doc = _document([
-        {
-            "page_number": 1,
-            "blocks": [
-                _block("b1", "a", section="s1", bbox=(10, 10, 50, 50)),
-                _block("b2", "b", section="s1", bbox=(40, 40, 90, 90)),
-            ],
-        }
-    ])
-    chunks = build_chunks(doc)
-
-    assert chunks[0]["metadata"]["bbox"] == {"x0": 10, "y0": 10, "x1": 90, "y1": 90, "unit": "pixel"}
-
-
 def test_chunk_id_is_stable_and_scoped_to_document_and_page():
     doc = _document([{"page_number": 2, "blocks": [_block("b1", "x", section="s1")]}])
     chunks = build_chunks(doc)
     assert chunks[0]["chunk_id"] == "DOC-0001-P02-C001"
+
+
+def test_metadata_is_chroma_compatible():
+    """ChromaDB requiere que todos los valores de metadata sean tipos simples
+    (str, int, float, None) -- no listas, dicts, ni conjuntos."""
+    doc = _document([
+        {
+            "page_number": 1,
+            "blocks": [
+                _block("b1", "DNI: 123", section="datos_solicitante"),
+                _block("b2", "Nombre: Ana", section="datos_solicitante"),
+            ],
+        }
+    ])
+    chunks = build_chunks(doc, case_id="EXP-1")
+
+    valid_types = (str, int, float, type(None))
+    for chunk in chunks:
+        for key, value in chunk["metadata"].items():
+            assert isinstance(value, valid_types), \
+                f"Metadata field '{key}' has type {type(value)} (value={value}), " \
+                f"expected one of {valid_types}"
