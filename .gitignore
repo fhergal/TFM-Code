@@ -37,6 +37,7 @@ data/chroma/
 *.tiff
 
 # Salidas y resultados de evaluación (mantener en local, no en repo)
+05_eval/results/
 resultados_*.json
 *_output.json
 *_response.json
