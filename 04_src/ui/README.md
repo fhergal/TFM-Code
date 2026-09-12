@@ -25,3 +25,7 @@ pytest tests/ui/ -v
 ```
 
 Los tests cubren `pipeline.py` y `naive_retriever.py` sin necesidad de tener `gradio` instalado (ver nota en `tests/ui/test_pipeline.py`).
+
+### Test omitido (1 skipped — esperado)
+
+`test_build_index_for_case_raises_pipeline_error_if_deps_missing` (en `tests/ui/test_pipeline.py`) se **salta cuando `llama-index`/`chromadb` están instalados**, que es el caso en cualquier máquina con el entorno completo. Solo verifica el camino de error "dependencias ausentes"; la integración real con ChromaDB se prueba en `tests/rag/test_index_store.py`. Por tanto, `1 skipped` es el resultado correcto y no indica un fallo.

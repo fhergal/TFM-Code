@@ -45,6 +45,9 @@ EVALUACION_FASE3_README.md
 # Artefactos de build de Python
 *.egg-info/
 
+# Logs temporales (p. ej. 04_src/ui/streamlit_test.log)
+*.log
+
 # Checkpoints / pesos de modelo
 *.ckpt
 *.safetensors
