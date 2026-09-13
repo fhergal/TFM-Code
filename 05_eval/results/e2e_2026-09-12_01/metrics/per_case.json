@@ -1,0 +1,847 @@
+[
+  {
+    "case_id": "EXP-SYN-0001",
+    "gold_status": "RECHAZADO",
+    "pred_status": "VALIDO",
+    "correct": false,
+    "n_evidence": 8,
+    "evidence_linked": 7,
+    "evidence_grounded": 7,
+    "grounding_problems": [],
+    "evidence_coverage": 0.875,
+    "retrieval_points": [
+      {
+        "requirement_id": "ae_ciu_sol_prestacion",
+        "precision_at_k": 0.5,
+        "recall_at_k": 1.0
+      },
+      {
+        "requirement_id": "ae_con_cer_rgecivil",
+        "precision_at_k": 0.3333333333333333,
+        "recall_at_k": 1.0
+      },
+      {
+        "requirement_id": "ae_ciu_acr_residencia",
+        "precision_at_k": 0.3333333333333333,
+        "recall_at_k": 1.0
+      },
+      {
+        "requirement_id": "ae_ciu_acr_acreditativo",
+        "precision_at_k": 0.3333333333333333,
+        "recall_at_k": 1.0
+      },
+      {
+        "requirement_id": "ae_con_cer_vinculoconyugal",
+        "precision_at_k": 0.3333333333333333,
+        "recall_at_k": 1.0
+      }
+    ],
+    "latency_ms": {
+      "parser": null,
+      "normalizer": null,
+      "indexing": 24002.71,
+      "retrieval": 277.1,
+      "agent": 0.19,
+      "end_to_end": 24287.34
+    }
+  },
+  {
+    "case_id": "EXP-SYN-0002",
+    "gold_status": "VALIDO",
+    "pred_status": "VALIDO",
+    "correct": true,
+    "n_evidence": 8,
+    "evidence_linked": 7,
+    "evidence_grounded": 7,
+    "grounding_problems": [],
+    "evidence_coverage": 0.875,
+    "retrieval_points": [
+      {
+        "requirement_id": "ae_ciu_sol_prestacion",
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0
+      },
+      {
+        "requirement_id": "ae_con_cer_rgecivil",
+        "precision_at_k": 0.3333333333333333,
+        "recall_at_k": 1.0
+      },
+      {
+        "requirement_id": "ae_ciu_acr_residencia",
+        "precision_at_k": 0.3333333333333333,
+        "recall_at_k": 1.0
+      },
+      {
+        "requirement_id": "ae_ciu_acr_acreditativo",
+        "precision_at_k": 0.3333333333333333,
+        "recall_at_k": 1.0
+      },
+      {
+        "requirement_id": "ae_con_cer_vinculoconyugal",
+        "precision_at_k": 0.5,
+        "recall_at_k": 1.0
+      }
+    ],
+    "latency_ms": {
+      "parser": null,
+      "normalizer": null,
+      "indexing": 4141.61,
+      "retrieval": 273.72,
+      "agent": 0.2,
+      "end_to_end": 4422.67
+    }
+  },
+  {
+    "case_id": "EXP-SYN-0003",
+    "gold_status": "INCOMPLETO",
+    "pred_status": "INCOMPLETO",
+    "correct": true,
+    "n_evidence": 8,
+    "evidence_linked": 6,
+    "evidence_grounded": 6,
+    "grounding_problems": [],
+    "evidence_coverage": 0.75,
+    "retrieval_points": [
+      {
+        "requirement_id": "ae_ciu_sol_prestacion",
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0
+      },
+      {
+        "requirement_id": "ae_ciu_acr_residencia",
+        "precision_at_k": 0.5,
+        "recall_at_k": 1.0
+      },
+      {
+        "requirement_id": "ae_ciu_acr_acreditativo",
+        "precision_at_k": 0.3333333333333333,
+        "recall_at_k": 1.0
+      }
+    ],
+    "latency_ms": {
+      "parser": null,
+      "normalizer": null,
+      "indexing": 4079.75,
+      "retrieval": 294.54,
+      "agent": 0.21,
+      "end_to_end": 4381.29
+    }
+  },
+  {
+    "case_id": "EXP-SYN-0004",
+    "gold_status": "VALIDO",
+    "pred_status": "VALIDO",
+    "correct": true,
+    "n_evidence": 8,
+    "evidence_linked": 7,
+    "evidence_grounded": 7,
+    "grounding_problems": [],
+    "evidence_coverage": 0.875,
+    "retrieval_points": [
+      {
+        "requirement_id": "ae_ciu_sol_prestacion",
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0
+      },
+      {
+        "requirement_id": "ae_con_cer_rgecivil",
+        "precision_at_k": 0.3333333333333333,
+        "recall_at_k": 1.0
+      },
+      {
+        "requirement_id": "ae_ciu_acr_residencia",
+        "precision_at_k": 0.3333333333333333,
+        "recall_at_k": 1.0
+      },
+      {
+        "requirement_id": "ae_ciu_acr_acreditativo",
+        "precision_at_k": 0.3333333333333333,
+        "recall_at_k": 1.0
+      }
+    ],
+    "latency_ms": {
+      "parser": null,
+      "normalizer": null,
+      "indexing": 4159.94,
+      "retrieval": 271.96,
+      "agent": 0.18,
+      "end_to_end": 4440.09
+    }
+  },
+  {
+    "case_id": "EXP-SYN-0005",
+    "gold_status": "VALIDO",
+    "pred_status": "VALIDO",
+    "correct": true,
+    "n_evidence": 8,
+    "evidence_linked": 7,
+    "evidence_grounded": 7,
+    "grounding_problems": [],
+    "evidence_coverage": 0.875,
+    "retrieval_points": [
+      {
+        "requirement_id": "ae_ciu_sol_prestacion",
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0
+      },
+      {
+        "requirement_id": "ae_con_cer_rgecivil",
+        "precision_at_k": 0.3333333333333333,
+        "recall_at_k": 1.0
+      },
+      {
+        "requirement_id": "ae_ciu_acr_residencia",
+        "precision_at_k": 0.3333333333333333,
+        "recall_at_k": 1.0
+      },
+      {
+        "requirement_id": "ae_ciu_acr_acreditativo",
+        "precision_at_k": 0.3333333333333333,
+        "recall_at_k": 1.0
+      }
+    ],
+    "latency_ms": {
+      "parser": null,
+      "normalizer": null,
+      "indexing": 4072.07,
+      "retrieval": 257.39,
+      "agent": 0.16,
+      "end_to_end": 4337.14
+    }
+  },
+  {
+    "case_id": "EXP-SYN-0006",
+    "gold_status": "INCOMPLETO",
+    "pred_status": "VALIDO",
+    "correct": false,
+    "n_evidence": 8,
+    "evidence_linked": 7,
+    "evidence_grounded": 7,
+    "grounding_problems": [],
+    "evidence_coverage": 0.875,
+    "retrieval_points": [
+      {
+        "requirement_id": "ae_ciu_sol_prestacion",
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0
+      },
+      {
+        "requirement_id": "ae_con_cer_rgecivil",
+        "precision_at_k": 0.3333333333333333,
+        "recall_at_k": 1.0
+      },
+      {
+        "requirement_id": "ae_ciu_acr_residencia",
+        "precision_at_k": 0.3333333333333333,
+        "recall_at_k": 1.0
+      }
+    ],
+    "latency_ms": {
+      "parser": null,
+      "normalizer": null,
+      "indexing": 3947.65,
+      "retrieval": 332.5,
+      "agent": 0.18,
+      "end_to_end": 4287.41
+    }
+  },
+  {
+    "case_id": "EXP-SYN-0007",
+    "gold_status": "INCOMPLETO",
+    "pred_status": "VALIDO",
+    "correct": false,
+    "n_evidence": 8,
+    "evidence_linked": 8,
+    "evidence_grounded": 8,
+    "grounding_problems": [],
+    "evidence_coverage": 1.0,
+    "retrieval_points": [
+      {
+        "requirement_id": "ae_ciu_sol_prestacion",
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0
+      },
+      {
+        "requirement_id": "ae_ciu_acr_residencia",
+        "precision_at_k": 0.5,
+        "recall_at_k": 1.0
+      },
+      {
+        "requirement_id": "ae_ciu_acr_acreditativo",
+        "precision_at_k": 0.3333333333333333,
+        "recall_at_k": 1.0
+      }
+    ],
+    "latency_ms": {
+      "parser": null,
+      "normalizer": null,
+      "indexing": 3921.59,
+      "retrieval": 294.42,
+      "agent": 0.18,
+      "end_to_end": 4222.85
+    }
+  },
+  {
+    "case_id": "EXP-SYN-0008",
+    "gold_status": "RECHAZADO",
+    "pred_status": "VALIDO",
+    "correct": false,
+    "n_evidence": 8,
+    "evidence_linked": 7,
+    "evidence_grounded": 7,
+    "grounding_problems": [],
+    "evidence_coverage": 0.875,
+    "retrieval_points": [
+      {
+        "requirement_id": "ae_ciu_sol_prestacion",
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0
+      },
+      {
+        "requirement_id": "ae_con_cer_rgecivil",
+        "precision_at_k": 0.3333333333333333,
+        "recall_at_k": 1.0
+      },
+      {
+        "requirement_id": "ae_ciu_acr_residencia",
+        "precision_at_k": 0.3333333333333333,
+        "recall_at_k": 1.0
+      },
+      {
+        "requirement_id": "ae_ciu_acr_acreditativo",
+        "precision_at_k": 0.3333333333333333,
+        "recall_at_k": 1.0
+      }
+    ],
+    "latency_ms": {
+      "parser": null,
+      "normalizer": null,
+      "indexing": 4373.74,
+      "retrieval": 308.61,
+      "agent": 0.18,
+      "end_to_end": 4689.52
+    }
+  },
+  {
+    "case_id": "EXP-SYN-0009",
+    "gold_status": "VALIDO",
+    "pred_status": "VALIDO",
+    "correct": true,
+    "n_evidence": 8,
+    "evidence_linked": 7,
+    "evidence_grounded": 7,
+    "grounding_problems": [],
+    "evidence_coverage": 0.875,
+    "retrieval_points": [
+      {
+        "requirement_id": "ae_ciu_sol_prestacion",
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0
+      },
+      {
+        "requirement_id": "ae_con_cer_rgecivil",
+        "precision_at_k": 0.3333333333333333,
+        "recall_at_k": 1.0
+      },
+      {
+        "requirement_id": "ae_ciu_acr_residencia",
+        "precision_at_k": 0.3333333333333333,
+        "recall_at_k": 1.0
+      },
+      {
+        "requirement_id": "ae_ciu_acr_acreditativo",
+        "precision_at_k": 0.3333333333333333,
+        "recall_at_k": 1.0
+      },
+      {
+        "requirement_id": "ae_con_cer_vinculoconyugal",
+        "precision_at_k": 0.5,
+        "recall_at_k": 1.0
+      }
+    ],
+    "latency_ms": {
+      "parser": null,
+      "normalizer": null,
+      "indexing": 4500.82,
+      "retrieval": 367.63,
+      "agent": 0.22,
+      "end_to_end": 4876.11
+    }
+  },
+  {
+    "case_id": "EXP-SYN-0010",
+    "gold_status": "INCOMPLETO",
+    "pred_status": "VALIDO",
+    "correct": false,
+    "n_evidence": 8,
+    "evidence_linked": 7,
+    "evidence_grounded": 7,
+    "grounding_problems": [],
+    "evidence_coverage": 0.875,
+    "retrieval_points": [
+      {
+        "requirement_id": "ae_ciu_sol_prestacion",
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0
+      },
+      {
+        "requirement_id": "ae_ciu_acr_residencia",
+        "precision_at_k": 0.5,
+        "recall_at_k": 1.0
+      },
+      {
+        "requirement_id": "ae_ciu_acr_acreditativo",
+        "precision_at_k": 0.3333333333333333,
+        "recall_at_k": 1.0
+      },
+      {
+        "requirement_id": "ae_con_cer_vinculoconyugal",
+        "precision_at_k": 0.5,
+        "recall_at_k": 1.0
+      }
+    ],
+    "latency_ms": {
+      "parser": null,
+      "normalizer": null,
+      "indexing": 4125.94,
+      "retrieval": 322.08,
+      "agent": 0.2,
+      "end_to_end": 4455.35
+    }
+  },
+  {
+    "case_id": "EXP-SYN-0011",
+    "gold_status": "RECHAZADO",
+    "pred_status": "VALIDO",
+    "correct": false,
+    "n_evidence": 8,
+    "evidence_linked": 8,
+    "evidence_grounded": 8,
+    "grounding_problems": [],
+    "evidence_coverage": 1.0,
+    "retrieval_points": [
+      {
+        "requirement_id": "ae_ciu_sol_prestacion",
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0
+      },
+      {
+        "requirement_id": "ae_con_cer_rgecivil",
+        "precision_at_k": 0.3333333333333333,
+        "recall_at_k": 1.0
+      },
+      {
+        "requirement_id": "ae_ciu_acr_residencia",
+        "precision_at_k": 0.3333333333333333,
+        "recall_at_k": 1.0
+      },
+      {
+        "requirement_id": "ae_ciu_acr_acreditativo",
+        "precision_at_k": 0.3333333333333333,
+        "recall_at_k": 1.0
+      },
+      {
+        "requirement_id": "ae_con_cer_vinculoconyugal",
+        "precision_at_k": 0.3333333333333333,
+        "recall_at_k": 1.0
+      },
+      {
+        "requirement_id": "ae_con_cer_discapacidad",
+        "precision_at_k": 0.3333333333333333,
+        "recall_at_k": 1.0
+      }
+    ],
+    "latency_ms": {
+      "parser": null,
+      "normalizer": null,
+      "indexing": 4157.32,
+      "retrieval": 292.37,
+      "agent": 0.18,
+      "end_to_end": 4457.39
+    }
+  },
+  {
+    "case_id": "EXP-SYN-0012",
+    "gold_status": "VALIDO",
+    "pred_status": "VALIDO",
+    "correct": true,
+    "n_evidence": 8,
+    "evidence_linked": 7,
+    "evidence_grounded": 7,
+    "grounding_problems": [],
+    "evidence_coverage": 0.875,
+    "retrieval_points": [
+      {
+        "requirement_id": "ae_ciu_sol_prestacion",
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0
+      },
+      {
+        "requirement_id": "ae_con_cer_rgecivil",
+        "precision_at_k": 0.3333333333333333,
+        "recall_at_k": 1.0
+      },
+      {
+        "requirement_id": "ae_ciu_acr_residencia",
+        "precision_at_k": 0.3333333333333333,
+        "recall_at_k": 1.0
+      },
+      {
+        "requirement_id": "ae_ciu_acr_acreditativo",
+        "precision_at_k": 0.5,
+        "recall_at_k": 1.0
+      }
+    ],
+    "latency_ms": {
+      "parser": null,
+      "normalizer": null,
+      "indexing": 4462.46,
+      "retrieval": 498.02,
+      "agent": 0.2,
+      "end_to_end": 4969.65
+    }
+  },
+  {
+    "case_id": "EXP-SYN-0013",
+    "gold_status": "VALIDO",
+    "pred_status": "VALIDO",
+    "correct": true,
+    "n_evidence": 8,
+    "evidence_linked": 7,
+    "evidence_grounded": 7,
+    "grounding_problems": [],
+    "evidence_coverage": 0.875,
+    "retrieval_points": [
+      {
+        "requirement_id": "ae_ciu_sol_prestacion",
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0
+      },
+      {
+        "requirement_id": "ae_con_cer_rgecivil",
+        "precision_at_k": 0.3333333333333333,
+        "recall_at_k": 1.0
+      },
+      {
+        "requirement_id": "ae_ciu_acr_residencia",
+        "precision_at_k": 0.5,
+        "recall_at_k": 1.0
+      },
+      {
+        "requirement_id": "ae_ciu_acr_acreditativo",
+        "precision_at_k": 0.3333333333333333,
+        "recall_at_k": 1.0
+      }
+    ],
+    "latency_ms": {
+      "parser": null,
+      "normalizer": null,
+      "indexing": 4683.42,
+      "retrieval": 474.78,
+      "agent": 0.19,
+      "end_to_end": 5165.52
+    }
+  },
+  {
+    "case_id": "EXP-SYN-0014",
+    "gold_status": "VALIDO",
+    "pred_status": "VALIDO",
+    "correct": true,
+    "n_evidence": 8,
+    "evidence_linked": 7,
+    "evidence_grounded": 7,
+    "grounding_problems": [],
+    "evidence_coverage": 0.875,
+    "retrieval_points": [
+      {
+        "requirement_id": "ae_ciu_sol_prestacion",
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0
+      },
+      {
+        "requirement_id": "ae_con_cer_rgecivil",
+        "precision_at_k": 0.3333333333333333,
+        "recall_at_k": 1.0
+      },
+      {
+        "requirement_id": "ae_ciu_acr_residencia",
+        "precision_at_k": 0.3333333333333333,
+        "recall_at_k": 1.0
+      },
+      {
+        "requirement_id": "ae_ciu_acr_acreditativo",
+        "precision_at_k": 0.3333333333333333,
+        "recall_at_k": 1.0
+      }
+    ],
+    "latency_ms": {
+      "parser": null,
+      "normalizer": null,
+      "indexing": 4424.34,
+      "retrieval": 275.71,
+      "agent": 0.17,
+      "end_to_end": 4708.69
+    }
+  },
+  {
+    "case_id": "EXP-SYN-0015",
+    "gold_status": "VALIDO",
+    "pred_status": "VALIDO",
+    "correct": true,
+    "n_evidence": 8,
+    "evidence_linked": 7,
+    "evidence_grounded": 7,
+    "grounding_problems": [],
+    "evidence_coverage": 0.875,
+    "retrieval_points": [
+      {
+        "requirement_id": "ae_ciu_sol_prestacion",
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0
+      },
+      {
+        "requirement_id": "ae_con_cer_rgecivil",
+        "precision_at_k": 0.3333333333333333,
+        "recall_at_k": 1.0
+      },
+      {
+        "requirement_id": "ae_ciu_acr_residencia",
+        "precision_at_k": 0.3333333333333333,
+        "recall_at_k": 1.0
+      },
+      {
+        "requirement_id": "ae_ciu_acr_acreditativo",
+        "precision_at_k": 0.3333333333333333,
+        "recall_at_k": 1.0
+      },
+      {
+        "requirement_id": "ae_con_cer_vinculoconyugal",
+        "precision_at_k": 0.3333333333333333,
+        "recall_at_k": 1.0
+      }
+    ],
+    "latency_ms": {
+      "parser": null,
+      "normalizer": null,
+      "indexing": 4247.97,
+      "retrieval": 319.33,
+      "agent": 0.19,
+      "end_to_end": 4575.02
+    }
+  },
+  {
+    "case_id": "EXP-SYN-0016",
+    "gold_status": "INCOMPLETO",
+    "pred_status": "VALIDO",
+    "correct": false,
+    "n_evidence": 8,
+    "evidence_linked": 8,
+    "evidence_grounded": 8,
+    "grounding_problems": [],
+    "evidence_coverage": 1.0,
+    "retrieval_points": [
+      {
+        "requirement_id": "ae_ciu_sol_prestacion",
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0
+      },
+      {
+        "requirement_id": "ae_ciu_acr_residencia",
+        "precision_at_k": 0.5,
+        "recall_at_k": 1.0
+      },
+      {
+        "requirement_id": "ae_ciu_acr_acreditativo",
+        "precision_at_k": 0.3333333333333333,
+        "recall_at_k": 1.0
+      },
+      {
+        "requirement_id": "ae_con_cer_vinculoconyugal",
+        "precision_at_k": 0.5,
+        "recall_at_k": 1.0
+      }
+    ],
+    "latency_ms": {
+      "parser": null,
+      "normalizer": null,
+      "indexing": 5437.82,
+      "retrieval": 300.5,
+      "agent": 0.2,
+      "end_to_end": 5745.71
+    }
+  },
+  {
+    "case_id": "EXP-SYN-0017",
+    "gold_status": "VALIDO",
+    "pred_status": "VALIDO",
+    "correct": true,
+    "n_evidence": 8,
+    "evidence_linked": 7,
+    "evidence_grounded": 7,
+    "grounding_problems": [],
+    "evidence_coverage": 0.875,
+    "retrieval_points": [
+      {
+        "requirement_id": "ae_ciu_sol_prestacion",
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0
+      },
+      {
+        "requirement_id": "ae_con_cer_rgecivil",
+        "precision_at_k": 0.3333333333333333,
+        "recall_at_k": 1.0
+      },
+      {
+        "requirement_id": "ae_ciu_acr_residencia",
+        "precision_at_k": 0.3333333333333333,
+        "recall_at_k": 1.0
+      },
+      {
+        "requirement_id": "ae_ciu_acr_acreditativo",
+        "precision_at_k": 0.3333333333333333,
+        "recall_at_k": 1.0
+      },
+      {
+        "requirement_id": "ae_con_cer_vinculoconyugal",
+        "precision_at_k": 0.5,
+        "recall_at_k": 1.0
+      }
+    ],
+    "latency_ms": {
+      "parser": null,
+      "normalizer": null,
+      "indexing": 5692.48,
+      "retrieval": 396.55,
+      "agent": 0.22,
+      "end_to_end": 6099.05
+    }
+  },
+  {
+    "case_id": "EXP-SYN-0018",
+    "gold_status": "VALIDO",
+    "pred_status": "VALIDO",
+    "correct": true,
+    "n_evidence": 8,
+    "evidence_linked": 7,
+    "evidence_grounded": 7,
+    "grounding_problems": [],
+    "evidence_coverage": 0.875,
+    "retrieval_points": [
+      {
+        "requirement_id": "ae_ciu_sol_prestacion",
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0
+      },
+      {
+        "requirement_id": "ae_con_cer_rgecivil",
+        "precision_at_k": 0.3333333333333333,
+        "recall_at_k": 1.0
+      },
+      {
+        "requirement_id": "ae_ciu_acr_residencia",
+        "precision_at_k": 0.3333333333333333,
+        "recall_at_k": 1.0
+      },
+      {
+        "requirement_id": "ae_ciu_acr_acreditativo",
+        "precision_at_k": 0.3333333333333333,
+        "recall_at_k": 1.0
+      }
+    ],
+    "latency_ms": {
+      "parser": null,
+      "normalizer": null,
+      "indexing": 5146.3,
+      "retrieval": 521.57,
+      "agent": 0.19,
+      "end_to_end": 5675.95
+    }
+  },
+  {
+    "case_id": "EXP-SYN-0019",
+    "gold_status": "VALIDO",
+    "pred_status": "VALIDO",
+    "correct": true,
+    "n_evidence": 8,
+    "evidence_linked": 7,
+    "evidence_grounded": 7,
+    "grounding_problems": [],
+    "evidence_coverage": 0.875,
+    "retrieval_points": [
+      {
+        "requirement_id": "ae_ciu_sol_prestacion",
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0
+      },
+      {
+        "requirement_id": "ae_con_cer_rgecivil",
+        "precision_at_k": 0.3333333333333333,
+        "recall_at_k": 1.0
+      },
+      {
+        "requirement_id": "ae_ciu_acr_residencia",
+        "precision_at_k": 0.3333333333333333,
+        "recall_at_k": 1.0
+      },
+      {
+        "requirement_id": "ae_ciu_acr_acreditativo",
+        "precision_at_k": 0.3333333333333333,
+        "recall_at_k": 1.0
+      },
+      {
+        "requirement_id": "ae_con_cer_vinculoconyugal",
+        "precision_at_k": 0.5,
+        "recall_at_k": 1.0
+      }
+    ],
+    "latency_ms": {
+      "parser": null,
+      "normalizer": null,
+      "indexing": 4310.77,
+      "retrieval": 342.59,
+      "agent": 0.22,
+      "end_to_end": 4661.06
+    }
+  },
+  {
+    "case_id": "EXP-SYN-0020",
+    "gold_status": "VALIDO",
+    "pred_status": "VALIDO",
+    "correct": true,
+    "n_evidence": 8,
+    "evidence_linked": 6,
+    "evidence_grounded": 6,
+    "grounding_problems": [],
+    "evidence_coverage": 0.75,
+    "retrieval_points": [
+      {
+        "requirement_id": "ae_ciu_sol_prestacion",
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0
+      },
+      {
+        "requirement_id": "ae_con_cer_rgecivil",
+        "precision_at_k": 0.3333333333333333,
+        "recall_at_k": 1.0
+      },
+      {
+        "requirement_id": "ae_ciu_acr_residencia",
+        "precision_at_k": 0.3333333333333333,
+        "recall_at_k": 1.0
+      },
+      {
+        "requirement_id": "ae_ciu_acr_acreditativo",
+        "precision_at_k": 0.3333333333333333,
+        "recall_at_k": 1.0
+      }
+    ],
+    "latency_ms": {
+      "parser": null,
+      "normalizer": null,
+      "indexing": 4315.67,
+      "retrieval": 285.15,
+      "agent": 0.18,
+      "end_to_end": 4607.21
+    }
+  }
+]

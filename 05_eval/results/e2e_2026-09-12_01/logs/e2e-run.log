@@ -1,0 +1,30 @@
+== E2E == casos=20 min_score=0.72 top_k=3 out=C:\Users\Usuario1\OneDrive\0.TFM_2026\TFM-Code\05_eval\results\e2e_2026-09-12_01
+  XX EXP-SYN-0001: gold=RECHAZADO  pred=VALIDO     grounding=7/7 e2e=24287.34ms
+  OK EXP-SYN-0002: gold=VALIDO     pred=VALIDO     grounding=7/7 e2e=4422.67ms
+  OK EXP-SYN-0003: gold=INCOMPLETO pred=INCOMPLETO grounding=6/6 e2e=4381.29ms
+  OK EXP-SYN-0004: gold=VALIDO     pred=VALIDO     grounding=7/7 e2e=4440.09ms
+  OK EXP-SYN-0005: gold=VALIDO     pred=VALIDO     grounding=7/7 e2e=4337.14ms
+  XX EXP-SYN-0006: gold=INCOMPLETO pred=VALIDO     grounding=7/7 e2e=4287.41ms
+  XX EXP-SYN-0007: gold=INCOMPLETO pred=VALIDO     grounding=8/8 e2e=4222.85ms
+  XX EXP-SYN-0008: gold=RECHAZADO  pred=VALIDO     grounding=7/7 e2e=4689.52ms
+  OK EXP-SYN-0009: gold=VALIDO     pred=VALIDO     grounding=7/7 e2e=4876.11ms
+  XX EXP-SYN-0010: gold=INCOMPLETO pred=VALIDO     grounding=7/7 e2e=4455.35ms
+  XX EXP-SYN-0011: gold=RECHAZADO  pred=VALIDO     grounding=8/8 e2e=4457.39ms
+  OK EXP-SYN-0012: gold=VALIDO     pred=VALIDO     grounding=7/7 e2e=4969.65ms
+  OK EXP-SYN-0013: gold=VALIDO     pred=VALIDO     grounding=7/7 e2e=5165.52ms
+  OK EXP-SYN-0014: gold=VALIDO     pred=VALIDO     grounding=7/7 e2e=4708.69ms
+  OK EXP-SYN-0015: gold=VALIDO     pred=VALIDO     grounding=7/7 e2e=4575.02ms
+  XX EXP-SYN-0016: gold=INCOMPLETO pred=VALIDO     grounding=8/8 e2e=5745.71ms
+  OK EXP-SYN-0017: gold=VALIDO     pred=VALIDO     grounding=7/7 e2e=6099.05ms
+  OK EXP-SYN-0018: gold=VALIDO     pred=VALIDO     grounding=7/7 e2e=5675.95ms
+  OK EXP-SYN-0019: gold=VALIDO     pred=VALIDO     grounding=7/7 e2e=4661.06ms
+  OK EXP-SYN-0020: gold=VALIDO     pred=VALIDO     grounding=6/6 e2e=4607.21ms
+
+=== METRICAS (min_score=0.72) ===
+  accuracy=0.65  f1_macro=0.3692
+  recall_per_class={'VALIDO': 1.0, 'INCOMPLETO': 0.2, 'RECHAZADO': 0.0}
+  retrieval@3: P=0.5078 R=1.0 (n=85)
+  evidence_coverage=0.8812  grounding_validity=1.0
+  confusion (gold x pred): {'VALIDO': {'VALIDO': 12, 'INCOMPLETO': 0, 'RECHAZADO': 0}, 'INCOMPLETO': {'VALIDO': 4, 'INCOMPLETO': 1, 'RECHAZADO': 0}, 'RECHAZADO': {'VALIDO': 3, 'INCOMPLETO': 0, 'RECHAZADO': 0}}
+  latencias_ms(media)={'parser': None, 'normalizer': None, 'indexing': 5410.22, 'retrieval': 335.33, 'agent': 0.19, 'end_to_end': 5753.25}
+  errores=[]  elapsed=115.07s
