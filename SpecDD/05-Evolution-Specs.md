@@ -174,6 +174,15 @@ Efecto colateral valioso: el modo demo se convirtió también en el **arnés de 
 (`test_demo_retrieve_fn_runs_full_agent_end_to_end`), porque es la única ruta que recorre el agente
 completo sin dependencias pesadas.
 
+### Actualización (2026-09-13)
+
+La restricción de entorno que motivó este hito ya no aplica: `chromadb`, `llama-index` y
+`sentence-transformers` están instalados y funcionan (ver `tests/rag/test_index_store.py`, 3/3, y
+la evaluación semántica end-to-end de `03_data/generators/evaluar_fase3_semantico.py`). El modo
+demo con `naive_retriever` se conserva porque sigue siendo válido como respaldo sin red/GPU para una
+presentación en directo, pero deja de ser la única vía disponible: el modo real con RAG semántico ya
+es ejecutable y evaluable en este entorno.
+
 ---
 
 ## Defectos que la especificación destapó
@@ -205,7 +214,7 @@ El schema no detecta errores de formato visual; los tests no detectan citas mal 
 | Agente con salida estructurada y `bastanteo_evidence` | ✅ 8 evidencias sobre requisitos SGDA reales |
 | Validadores de negocio por campo (`dni_nie`, `nuss`, fechas) | ⏳ Pendiente (Fase 2) |
 | Normalizador de dataset gold | ⏳ Pendiente (Fase 2) |
-| Pipeline de evaluación (clasificación, extracción, eficiencia, grounding) | ⏳ Pendiente (Fase 3) |
+| Pipeline de evaluación (clasificación, extracción, eficiencia, grounding) | 🔁 Iniciado (Fase 3): evaluación end-to-end con RAG semántico real (ChromaDB + `intfloat/multilingual-e5-small`) sobre los 20 casos del dataset sintético v1, ejecutada el 2026-09-13. Extracción de campos y grounding cuantitativo quedan para completar |
 | Generación de dataset sintético (Faker + LayoutDM + SynthDoG + augmentación) | ⏳ Pendiente (Fase 2) |
 | Adaptadores dots.ocr / Nemotron | ⏳ Pendiente (punto de extensión ya preparado) |
 

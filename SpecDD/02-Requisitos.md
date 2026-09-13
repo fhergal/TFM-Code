@@ -99,7 +99,7 @@ Este documento especifica los requisitos funcionales del sistema en estructura P
 
 | ID | Título | Descripción | Prioridad | Criterio de Aceptación |
 |---|---|---|---|---|
-| **REQ-6.1** | Cobertura de tests | Todos los módulos (parser, normalizer, agent, rag/chunking, ui) con tests unitarios e2e, >80% líneas | **P0** | ✅ 36/36 tests pasan (exc. rag/index_store que usa ChromaDB pesado); `pytest --cov` >80% |
+| **REQ-6.1** | Cobertura de tests | Todos los módulos (parser, normalizer, agent, rag/chunking, ui) con tests unitarios e2e, >80% líneas | **P0** | ✅ 38/39 tests pasan, 1 skip (rag/index_store que usa ChromaDB pesado); `pytest --cov` >80% |
 | **REQ-6.2** | Mocks de dependencias externas | Tests no usan API de Datalab real; mock DatalabClient con respuestas tipadas | **P0** | ✅ pytest-mock + fixture fake_parser_result() con JSON sample válido |
 | **REQ-6.3** | Sample case BADA realista | sample_case.json contiene 6 documentos tipo BADA real, tipos SGDA exactos, texto español | **P0** | ✅ case_id=EXP-DEMO-0001, procedure_type=aex_gestprestaciones_bada, 6 docs con tipos ae_* |
 | **REQ-6.4** | Especificación de requisitos SpecDD | PRD (este doc), ADRs de decisiones clave, specs de componentes (contratos entrada/salida) | **P0** | ✅ `/SpecDD/` con 02-Requisitos.md (PRD), ADRs/, 03-Component-Specs.md |
