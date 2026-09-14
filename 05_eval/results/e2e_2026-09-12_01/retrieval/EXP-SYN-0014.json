@@ -1,0 +1,290 @@
+[
+  {
+    "query": "Consta el formulario de solicitud de asistencia sanitaria para migrantes en estancia temporal?",
+    "top_k": 3,
+    "citations": [
+      {
+        "chunk_id": "DOC-0001-P01-C001",
+        "score": 0.8264690368388173,
+        "text": "Solicitud de asistencia sanitaria para migrantes en estancia temporal en España (formulario C-157)\nDNI del solicitante: 77187530J\nNombre y apellidos: Renata Barba Grande\nNUSS: 493397824964",
+        "document_id": "DOC-0001",
+        "page_number": "1",
+        "section": "datos_solicitante",
+        "block_ids": "B002,B003,B004",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0001-P01-C002",
+        "score": 0.8151484685043391,
+        "text": "Motivo de la solicitud: asistencia sanitaria durante la estancia temporal en España del pensionista español de origen residente en el extranjero.",
+        "document_id": "DOC-0001",
+        "page_number": "1",
+        "section": "alegaciones",
+        "block_ids": "B005",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0001-P01-C003",
+        "score": 0.7408148339083913,
+        "text": "Declaro que son ciertos los datos incluidos en esta solicitud. Doy mi consentimiento para consultar y recabar electrónicamente los datos en poder de otras administraciones.",
+        "document_id": "DOC-0001",
+        "page_number": "1",
+        "section": "consentimiento",
+        "block_ids": "B006",
+        "bbox": null
+      }
+    ]
+  },
+  {
+    "query": "Cual es el DNI, NIE o pasaporte del solicitante?",
+    "top_k": 3,
+    "citations": [
+      {
+        "chunk_id": "DOC-0001-P01-C001",
+        "score": 0.7385108973904282,
+        "text": "Solicitud de asistencia sanitaria para migrantes en estancia temporal en España (formulario C-157)\nDNI del solicitante: 77187530J\nNombre y apellidos: Renata Barba Grande\nNUSS: 493397824964",
+        "document_id": "DOC-0001",
+        "page_number": "1",
+        "section": "datos_solicitante",
+        "block_ids": "B002,B003,B004",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0002-P01-C001",
+        "score": 0.7289725123616916,
+        "text": "Certificación literal de nacimiento de Renata Barba Grande (DNI 77187530J) que acredita la nacionalidad española de origen.",
+        "document_id": "DOC-0002",
+        "page_number": "1",
+        "section": "acreditacion",
+        "block_ids": "B001",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0003-P01-C001",
+        "score": 0.710656374678304,
+        "text": "Certificado de inscripción en el Padrón de Españoles Residentes en el Extranjero (PERE) de Renata Barba Grande.",
+        "document_id": "DOC-0003",
+        "page_number": "1",
+        "section": "acreditacion",
+        "block_ids": "B001",
+        "bbox": null
+      }
+    ]
+  },
+  {
+    "query": "Consta la certificacion literal de nacimiento que acredita la nacionalidad espanola de origen?",
+    "top_k": 3,
+    "citations": [
+      {
+        "chunk_id": "DOC-0002-P01-C001",
+        "score": 0.805732295766781,
+        "text": "Certificación literal de nacimiento de Renata Barba Grande (DNI 77187530J) que acredita la nacionalidad española de origen.",
+        "document_id": "DOC-0002",
+        "page_number": "1",
+        "section": "acreditacion",
+        "block_ids": "B001",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0003-P01-C001",
+        "score": 0.742004799427855,
+        "text": "Certificado de inscripción en el Padrón de Españoles Residentes en el Extranjero (PERE) de Renata Barba Grande.",
+        "document_id": "DOC-0003",
+        "page_number": "1",
+        "section": "acreditacion",
+        "block_ids": "B001",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0001-P01-C001",
+        "score": 0.7241358990164375,
+        "text": "Solicitud de asistencia sanitaria para migrantes en estancia temporal en España (formulario C-157)\nDNI del solicitante: 77187530J\nNombre y apellidos: Renata Barba Grande\nNUSS: 493397824964",
+        "document_id": "DOC-0001",
+        "page_number": "1",
+        "section": "datos_solicitante",
+        "block_ids": "B002,B003,B004",
+        "bbox": null
+      }
+    ]
+  },
+  {
+    "query": "Consta el certificado de inscripcion en el Padron de Espanoles Residentes en el Extranjero?",
+    "top_k": 3,
+    "citations": [
+      {
+        "chunk_id": "DOC-0003-P01-C001",
+        "score": 0.7950618862832205,
+        "text": "Certificado de inscripción en el Padrón de Españoles Residentes en el Extranjero (PERE) de Renata Barba Grande.",
+        "document_id": "DOC-0003",
+        "page_number": "1",
+        "section": "acreditacion",
+        "block_ids": "B001",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0001-P01-C002",
+        "score": 0.74277160388473,
+        "text": "Motivo de la solicitud: asistencia sanitaria durante la estancia temporal en España del pensionista español de origen residente en el extranjero.",
+        "document_id": "DOC-0001",
+        "page_number": "1",
+        "section": "alegaciones",
+        "block_ids": "B005",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0002-P01-C001",
+        "score": 0.7413781032353208,
+        "text": "Certificación literal de nacimiento de Renata Barba Grande (DNI 77187530J) que acredita la nacionalidad española de origen.",
+        "document_id": "DOC-0002",
+        "page_number": "1",
+        "section": "acreditacion",
+        "block_ids": "B001",
+        "bbox": null
+      }
+    ]
+  },
+  {
+    "query": "Consta el documento oficial que acredita que es pensionista o trabajador en el pais de procedencia?",
+    "top_k": 3,
+    "citations": [
+      {
+        "chunk_id": "DOC-0004-P01-C001",
+        "score": 0.799207796608835,
+        "text": "Documento oficial que acredita que Renata Barba Grande es pensionista o trabajador por cuenta ajena en el país de procedencia.",
+        "document_id": "DOC-0004",
+        "page_number": "1",
+        "section": "acreditacion",
+        "block_ids": "B001",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0001-P01-C002",
+        "score": 0.7596943910459908,
+        "text": "Motivo de la solicitud: asistencia sanitaria durante la estancia temporal en España del pensionista español de origen residente en el extranjero.",
+        "document_id": "DOC-0001",
+        "page_number": "1",
+        "section": "alegaciones",
+        "block_ids": "B005",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0002-P01-C001",
+        "score": 0.7358535281590487,
+        "text": "Certificación literal de nacimiento de Renata Barba Grande (DNI 77187530J) que acredita la nacionalidad española de origen.",
+        "document_id": "DOC-0002",
+        "page_number": "1",
+        "section": "acreditacion",
+        "block_ids": "B001",
+        "bbox": null
+      }
+    ]
+  },
+  {
+    "query": "Consta el libro de familia o certificado de inscripcion de matrimonio del conyuge?",
+    "top_k": 3,
+    "citations": [
+      {
+        "chunk_id": "DOC-0003-P01-C001",
+        "score": 0.7242885786194903,
+        "text": "Certificado de inscripción en el Padrón de Españoles Residentes en el Extranjero (PERE) de Renata Barba Grande.",
+        "document_id": "DOC-0003",
+        "page_number": "1",
+        "section": "acreditacion",
+        "block_ids": "B001",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0001-P01-C004",
+        "score": 0.7236454874186833,
+        "text": "Firma manuscrita del solicitante presente al pie del documento.",
+        "document_id": "DOC-0001",
+        "page_number": "1",
+        "section": "cierre",
+        "block_ids": "B007",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0001-P01-C003",
+        "score": 0.7221624271434341,
+        "text": "Declaro que son ciertos los datos incluidos en esta solicitud. Doy mi consentimiento para consultar y recabar electrónicamente los datos en poder de otras administraciones.",
+        "document_id": "DOC-0001",
+        "page_number": "1",
+        "section": "consentimiento",
+        "block_ids": "B006",
+        "bbox": null
+      }
+    ]
+  },
+  {
+    "query": "Consta el certificado de discapacidad de un descendiente mayor de 26 anos a cargo?",
+    "top_k": 3,
+    "citations": [
+      {
+        "chunk_id": "DOC-0004-P01-C001",
+        "score": 0.7095886863647045,
+        "text": "Documento oficial que acredita que Renata Barba Grande es pensionista o trabajador por cuenta ajena en el país de procedencia.",
+        "document_id": "DOC-0004",
+        "page_number": "1",
+        "section": "acreditacion",
+        "block_ids": "B001",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0001-P01-C001",
+        "score": 0.7083747660044465,
+        "text": "Solicitud de asistencia sanitaria para migrantes en estancia temporal en España (formulario C-157)\nDNI del solicitante: 77187530J\nNombre y apellidos: Renata Barba Grande\nNUSS: 493397824964",
+        "document_id": "DOC-0001",
+        "page_number": "1",
+        "section": "datos_solicitante",
+        "block_ids": "B002,B003,B004",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0002-P01-C001",
+        "score": 0.7068435170973895,
+        "text": "Certificación literal de nacimiento de Renata Barba Grande (DNI 77187530J) que acredita la nacionalidad española de origen.",
+        "document_id": "DOC-0002",
+        "page_number": "1",
+        "section": "acreditacion",
+        "block_ids": "B001",
+        "bbox": null
+      }
+    ]
+  },
+  {
+    "query": "Da el solicitante su consentimiento para consultar datos de otras administraciones?",
+    "top_k": 3,
+    "citations": [
+      {
+        "chunk_id": "DOC-0001-P01-C003",
+        "score": 0.8240214459817674,
+        "text": "Declaro que son ciertos los datos incluidos en esta solicitud. Doy mi consentimiento para consultar y recabar electrónicamente los datos en poder de otras administraciones.",
+        "document_id": "DOC-0001",
+        "page_number": "1",
+        "section": "consentimiento",
+        "block_ids": "B006",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0001-P01-C001",
+        "score": 0.7336577436703511,
+        "text": "Solicitud de asistencia sanitaria para migrantes en estancia temporal en España (formulario C-157)\nDNI del solicitante: 77187530J\nNombre y apellidos: Renata Barba Grande\nNUSS: 493397824964",
+        "document_id": "DOC-0001",
+        "page_number": "1",
+        "section": "datos_solicitante",
+        "block_ids": "B002,B003,B004",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0001-P01-C004",
+        "score": 0.7295462365115583,
+        "text": "Firma manuscrita del solicitante presente al pie del documento.",
+        "document_id": "DOC-0001",
+        "page_number": "1",
+        "section": "cierre",
+        "block_ids": "B007",
+        "bbox": null
+      }
+    ]
+  }
+]

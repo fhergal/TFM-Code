@@ -52,9 +52,9 @@ TFM-Code/
 ├── SpecDD/            ← artefactos metodológicos (esta carpeta)
 ├── specs/             ← contrato canónico: JSON Schema + documentación
 ├── 04_src/            ← código: parser, normalizer, rag, agent, ui
-├── tests/             ← 36 tests (parser, normalizer, agent, rag, ui)
+├── tests/             ← 39 tests (parser, normalizer, agent, rag, ui)
 ├── 03_data/           ← datos y fixtures
-├── 05_eval/           ← evaluación (fase 3, pendiente)
+├── 05_eval/           ← evaluación (fase 3, primeros resultados 2026-09-13)
 └── 06_docs/           ← documentación general
 ```
 
@@ -69,10 +69,10 @@ La bitácora cronológica del proyecto está fuera del repositorio, junto a la m
 |---|---|
 | 1 · Parser | ✅ Completo (tests con mocks) |
 | 2 · Normalizador | ✅ Completo (validación contra JSON Schema) |
-| 3 · RAG | ⚠️ Chunking verificado (6/6); indexación escrita, sin verificar por falta de dependencias pesadas en el entorno |
+| 3 · RAG | ✅ Chunking verificado (6/6) + indexación ChromaDB real verificada (2026-09-13) + evaluación semántica end-to-end sobre 20 casos sintéticos (55% accuracy global, ver `resultados_evaluacion_semantica.json`) |
 | 4 · Agente de bastanteo | ✅ Completo (8 requisitos SGDA reales) |
 | 5 · UI Gradio | ✅ Completo (modo real + modo demo) |
 | Artefactos SpecDD | ✅ Completos (6 documentos + 5 ADRs) |
 
-**Tests:** 36/36 en verde (excluido `tests/rag/test_index_store.py`, marcado con `skip` a la espera
-de un entorno con `chromadb` y `llama-index` instalados).
+**Tests:** 38/39 en verde, 1 `skip` (`tests/rag/test_index_store.py`, a la espera de un entorno con
+`chromadb` y `llama-index` instalados).

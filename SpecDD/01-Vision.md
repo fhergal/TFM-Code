@@ -84,7 +84,7 @@ Modernos modelos VLM/OCR-free (Chandra OCR-2, dots.ocr) permiten extraer estruct
 ### O1: Funcionalidad completa del pipeline
 - ✅ Parser (Datalab/Chandra) → Normalizador (CanonicalDocumentParse v1.1) → RAG (LlamaIndex + ChromaDB) → Agente (ReAct) → UI (Gradio)
 - ✅ Soporte SGDA documento types reales (ae_ciu_sol_prestacion, ae_con_cer_rgecivil, etc.)
-- ✅ 36/36 tests unitarios, e2e demo sin dependencias pesadas
+- ✅ 38/39 tests unitarios (1 skip), e2e demo sin dependencias pesadas
 
 **Métrica:** Todos los módulos con cobertura >80%, 0 tests fallando.
 
@@ -97,7 +97,7 @@ Modernos modelos VLM/OCR-free (Chandra OCR-2, dots.ocr) permiten extraer estruct
 
 ### O3: Robustez ante variabilidad
 - ✅ Sistema no alucina cuando evidencia es insuficiente (returns MISSING explícito)
-- ✅ Maneja documentos escaneados con ruido, dobleces, ángulos torcidos (evaluado en Fase 3)
+- ⏳ Maneja documentos escaneados con ruido, dobleces, ángulos torcidos (pendiente de evaluar en Fase 3)
 - ✅ Arquitectura preparada para cambiar parser (abstracción get_parser(), backend swappable)
 
 **Métrica:** Error rate en detección de MISSING <5%; no más de 1 alucinación por 100 expedientes.

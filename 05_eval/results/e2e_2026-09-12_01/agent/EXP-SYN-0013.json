@@ -1,0 +1,101 @@
+{
+  "bastanteo_evidence": [
+    {
+      "evidence_id": "EV-001",
+      "requirement_id": "ae_ciu_sol_prestacion",
+      "evidence_type": "document",
+      "claim": "Consta la solicitud de prestacion (formulario C-157) cumplimentada",
+      "status": "supported",
+      "justification_text": "Se encontro evidencia con score=0.820 en DOC-0001 (pagina 1): \"Solicitud de asistencia sanitaria para migrantes en estancia temporal en España (formulario C-157)\nDNI del solicitante: 24972279Y\nNombre y apellidos: Elba Gimenez Morata\nNUSS: 196835320420\"",
+      "linked_document_id": "DOC-0001",
+      "linked_page": "1",
+      "source_block_ids": "B002,B003,B004",
+      "span_text": "Solicitud de asistencia sanitaria para migrantes en estancia temporal en España (formulario C-157)\nDNI del solicitante: 24972279Y\nNombre y apellidos: Elba Gimenez Morata\nNUSS: 196835320420"
+    },
+    {
+      "evidence_id": "EV-002",
+      "requirement_id": "ae_ciu_ide_identificativo",
+      "evidence_type": "field",
+      "claim": "Consta el documento identificativo (DNI/NIE/Pasaporte) del solicitante",
+      "status": "supported",
+      "justification_text": "Se encontro evidencia con score=0.741 en DOC-0001 (pagina 1): \"Solicitud de asistencia sanitaria para migrantes en estancia temporal en España (formulario C-157)\nDNI del solicitante: 24972279Y\nNombre y apellidos: Elba Gimenez Morata\nNUSS: 196835320420\"",
+      "linked_document_id": "DOC-0001",
+      "linked_page": "1",
+      "source_block_ids": "B002,B003,B004",
+      "span_text": "Solicitud de asistencia sanitaria para migrantes en estancia temporal en España (formulario C-157)\nDNI del solicitante: 24972279Y\nNombre y apellidos: Elba Gimenez Morata\nNUSS: 196835320420"
+    },
+    {
+      "evidence_id": "EV-003",
+      "requirement_id": "ae_con_cer_rgecivil",
+      "evidence_type": "document",
+      "claim": "Consta la certificacion literal de nacimiento que acredita la nacionalidad espanola de origen",
+      "status": "supported",
+      "justification_text": "Se encontro evidencia con score=0.812 en DOC-0002 (pagina 1): \"Certificación literal de nacimiento de Elba Gimenez Morata (DNI 24972279Y) que acredita la nacionalidad española de origen.\"",
+      "linked_document_id": "DOC-0002",
+      "linked_page": "1",
+      "source_block_ids": "B001",
+      "span_text": "Certificación literal de nacimiento de Elba Gimenez Morata (DNI 24972279Y) que acredita la nacionalidad española de origen."
+    },
+    {
+      "evidence_id": "EV-004",
+      "requirement_id": "ae_ciu_acr_residencia",
+      "evidence_type": "document",
+      "claim": "Consta el certificado de inscripcion en el Padron de Espanoles Residentes en el Extranjero",
+      "status": "supported",
+      "justification_text": "Se encontro evidencia con score=0.792 en DOC-0003 (pagina 1): \"Certificado de inscripción en el Padrón de Españoles Residentes en el Extranjero (PERE) de Elba Gimenez Morata.\"",
+      "linked_document_id": "DOC-0003",
+      "linked_page": "1",
+      "source_block_ids": "B001",
+      "span_text": "Certificado de inscripción en el Padrón de Españoles Residentes en el Extranjero (PERE) de Elba Gimenez Morata."
+    },
+    {
+      "evidence_id": "EV-005",
+      "requirement_id": "ae_ciu_acr_acreditativo",
+      "evidence_type": "document",
+      "claim": "Consta el documento oficial que acredita la condicion de pensionista o trabajador en el pais de procedencia",
+      "status": "supported",
+      "justification_text": "Se encontro evidencia con score=0.805 en DOC-0004 (pagina 1): \"Documento oficial que acredita que Elba Gimenez Morata es pensionista o trabajador por cuenta ajena en el país de procedencia.\"",
+      "linked_document_id": "DOC-0004",
+      "linked_page": "1",
+      "source_block_ids": "B001",
+      "span_text": "Documento oficial que acredita que Elba Gimenez Morata es pensionista o trabajador por cuenta ajena en el país de procedencia."
+    },
+    {
+      "evidence_id": "EV-006",
+      "requirement_id": "ae_con_cer_vinculoconyugal",
+      "evidence_type": "document",
+      "claim": "Si viaja con conyuge, consta el libro de familia o certificado de inscripcion de matrimonio",
+      "status": "supported",
+      "justification_text": "Se encontro evidencia con score=0.723 en DOC-0003 (pagina 1): \"Certificado de inscripción en el Padrón de Españoles Residentes en el Extranjero (PERE) de Elba Gimenez Morata.\"",
+      "linked_document_id": "DOC-0003",
+      "linked_page": "1",
+      "source_block_ids": "B001",
+      "span_text": "Certificado de inscripción en el Padrón de Españoles Residentes en el Extranjero (PERE) de Elba Gimenez Morata."
+    },
+    {
+      "evidence_id": "EV-007",
+      "requirement_id": "ae_con_cer_discapacidad",
+      "evidence_type": "document",
+      "claim": "Si hay descendientes mayores de 26 anos a cargo, consta el certificado de discapacidad (>=65%)",
+      "status": "missing",
+      "justification_text": "La mejor cita encontrada (score=0.704) no supera el umbral minimo (0.72) para: \"Si hay descendientes mayores de 26 anos a cargo, consta el certificado de discapacidad (>=65%)\".",
+      "linked_document_id": ""
+    },
+    {
+      "evidence_id": "EV-008",
+      "requirement_id": "ae_ciu_del_responsable",
+      "evidence_type": "field",
+      "claim": "Consta la declaracion/alegacion de consentimiento del solicitante",
+      "status": "supported",
+      "justification_text": "Se encontro evidencia con score=0.824 en DOC-0001 (pagina 1): \"Declaro que son ciertos los datos incluidos en esta solicitud. Doy mi consentimiento para consultar y recabar electrónicamente los datos en poder de otras administraciones.\"",
+      "linked_document_id": "DOC-0001",
+      "linked_page": "1",
+      "source_block_ids": "B006",
+      "span_text": "Declaro que son ciertos los datos incluidos en esta solicitud. Doy mi consentimiento para consultar y recabar electrónicamente los datos en poder de otras administraciones."
+    }
+  ],
+  "bastanteo_gold": {
+    "status": "VALIDO",
+    "notes": "Todos los requisitos obligatorios quedan soportados por evidencia."
+  }
+}

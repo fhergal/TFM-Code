@@ -1,0 +1,290 @@
+[
+  {
+    "query": "Consta el formulario de solicitud de asistencia sanitaria para migrantes en estancia temporal?",
+    "top_k": 3,
+    "citations": [
+      {
+        "chunk_id": "DOC-0001-P01-C001",
+        "score": 0.8321068598932254,
+        "text": "Solicitud de asistencia sanitaria para migrantes en estancia temporal en España (formulario C-157)\nDNI del solicitante: 43101783J\nNombre y apellidos: Alonso Goñi Mancebo\nNUSS: 488534555568",
+        "document_id": "DOC-0001",
+        "page_number": "1",
+        "section": "datos_solicitante",
+        "block_ids": "B002,B003,B004",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0001-P01-C002",
+        "score": 0.8123794199931451,
+        "text": "Motivo de la solicitud: asistencia sanitaria durante la estancia temporal en España del pensionista español de origen residente en el extranjero.",
+        "document_id": "DOC-0001",
+        "page_number": "1",
+        "section": "alegaciones",
+        "block_ids": "B005",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0001-P01-C003",
+        "score": 0.7397148201233874,
+        "text": "Declaro que son ciertos los datos incluidos en esta solicitud. Doy mi consentimiento para consultar y recabar electrónicamente los datos en poder de otras administraciones.",
+        "document_id": "DOC-0001",
+        "page_number": "1",
+        "section": "consentimiento",
+        "block_ids": "B006",
+        "bbox": null
+      }
+    ]
+  },
+  {
+    "query": "Cual es el DNI, NIE o pasaporte del solicitante?",
+    "top_k": 3,
+    "citations": [
+      {
+        "chunk_id": "DOC-0001-P01-C001",
+        "score": 0.7456038643592874,
+        "text": "Solicitud de asistencia sanitaria para migrantes en estancia temporal en España (formulario C-157)\nDNI del solicitante: 43101783J\nNombre y apellidos: Alonso Goñi Mancebo\nNUSS: 488534555568",
+        "document_id": "DOC-0001",
+        "page_number": "1",
+        "section": "datos_solicitante",
+        "block_ids": "B002,B003,B004",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0003-P01-C001",
+        "score": 0.7163264809655893,
+        "text": "Certificado de inscripción en el Padrón de Españoles Residentes en el Extranjero (PERE) de Alonso Goñi Mancebo.",
+        "document_id": "DOC-0003",
+        "page_number": "1",
+        "section": "acreditacion",
+        "block_ids": "B001",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0001-P01-C003",
+        "score": 0.7091895359316076,
+        "text": "Declaro que son ciertos los datos incluidos en esta solicitud. Doy mi consentimiento para consultar y recabar electrónicamente los datos en poder de otras administraciones.",
+        "document_id": "DOC-0001",
+        "page_number": "1",
+        "section": "consentimiento",
+        "block_ids": "B006",
+        "bbox": null
+      }
+    ]
+  },
+  {
+    "query": "Consta la certificacion literal de nacimiento que acredita la nacionalidad espanola de origen?",
+    "top_k": 3,
+    "citations": [
+      {
+        "chunk_id": "DOC-0003-P01-C001",
+        "score": 0.749708646614973,
+        "text": "Certificado de inscripción en el Padrón de Españoles Residentes en el Extranjero (PERE) de Alonso Goñi Mancebo.",
+        "document_id": "DOC-0003",
+        "page_number": "1",
+        "section": "acreditacion",
+        "block_ids": "B001",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0004-P01-C001",
+        "score": 0.7308384515090741,
+        "text": "Documento oficial que acredita que Alonso Goñi Mancebo es pensionista o trabajador por cuenta ajena en el país de procedencia.",
+        "document_id": "DOC-0004",
+        "page_number": "1",
+        "section": "acreditacion",
+        "block_ids": "B001",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0001-P01-C001",
+        "score": 0.7282363608598964,
+        "text": "Solicitud de asistencia sanitaria para migrantes en estancia temporal en España (formulario C-157)\nDNI del solicitante: 43101783J\nNombre y apellidos: Alonso Goñi Mancebo\nNUSS: 488534555568",
+        "document_id": "DOC-0001",
+        "page_number": "1",
+        "section": "datos_solicitante",
+        "block_ids": "B002,B003,B004",
+        "bbox": null
+      }
+    ]
+  },
+  {
+    "query": "Consta el certificado de inscripcion en el Padron de Espanoles Residentes en el Extranjero?",
+    "top_k": 3,
+    "citations": [
+      {
+        "chunk_id": "DOC-0003-P01-C001",
+        "score": 0.8019279336832758,
+        "text": "Certificado de inscripción en el Padrón de Españoles Residentes en el Extranjero (PERE) de Alonso Goñi Mancebo.",
+        "document_id": "DOC-0003",
+        "page_number": "1",
+        "section": "acreditacion",
+        "block_ids": "B001",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0001-P01-C001",
+        "score": 0.7425604534213389,
+        "text": "Solicitud de asistencia sanitaria para migrantes en estancia temporal en España (formulario C-157)\nDNI del solicitante: 43101783J\nNombre y apellidos: Alonso Goñi Mancebo\nNUSS: 488534555568",
+        "document_id": "DOC-0001",
+        "page_number": "1",
+        "section": "datos_solicitante",
+        "block_ids": "B002,B003,B004",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0001-P01-C002",
+        "score": 0.7425117468315271,
+        "text": "Motivo de la solicitud: asistencia sanitaria durante la estancia temporal en España del pensionista español de origen residente en el extranjero.",
+        "document_id": "DOC-0001",
+        "page_number": "1",
+        "section": "alegaciones",
+        "block_ids": "B005",
+        "bbox": null
+      }
+    ]
+  },
+  {
+    "query": "Consta el documento oficial que acredita que es pensionista o trabajador en el pais de procedencia?",
+    "top_k": 3,
+    "citations": [
+      {
+        "chunk_id": "DOC-0004-P01-C001",
+        "score": 0.8071745267119262,
+        "text": "Documento oficial que acredita que Alonso Goñi Mancebo es pensionista o trabajador por cuenta ajena en el país de procedencia.",
+        "document_id": "DOC-0004",
+        "page_number": "1",
+        "section": "acreditacion",
+        "block_ids": "B001",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0001-P01-C002",
+        "score": 0.7617701777560913,
+        "text": "Motivo de la solicitud: asistencia sanitaria durante la estancia temporal en España del pensionista español de origen residente en el extranjero.",
+        "document_id": "DOC-0001",
+        "page_number": "1",
+        "section": "alegaciones",
+        "block_ids": "B005",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0003-P01-C001",
+        "score": 0.7302847785700948,
+        "text": "Certificado de inscripción en el Padrón de Españoles Residentes en el Extranjero (PERE) de Alonso Goñi Mancebo.",
+        "document_id": "DOC-0003",
+        "page_number": "1",
+        "section": "acreditacion",
+        "block_ids": "B001",
+        "bbox": null
+      }
+    ]
+  },
+  {
+    "query": "Consta el libro de familia o certificado de inscripcion de matrimonio del conyuge?",
+    "top_k": 3,
+    "citations": [
+      {
+        "chunk_id": "DOC-0005-P01-C001",
+        "score": 0.7780400965489761,
+        "text": "Libro de familia y certificado de inscripción de matrimonio de Alonso Goñi Mancebo con Tania Guerrero Cabrero.",
+        "document_id": "DOC-0005",
+        "page_number": "1",
+        "section": "acreditacion",
+        "block_ids": "B001",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0001-P01-C004",
+        "score": 0.7214859596674079,
+        "text": "Firma manuscrita del solicitante presente al pie del documento.",
+        "document_id": "DOC-0001",
+        "page_number": "1",
+        "section": "cierre",
+        "block_ids": "B007",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0001-P01-C003",
+        "score": 0.7200065097922633,
+        "text": "Declaro que son ciertos los datos incluidos en esta solicitud. Doy mi consentimiento para consultar y recabar electrónicamente los datos en poder de otras administraciones.",
+        "document_id": "DOC-0001",
+        "page_number": "1",
+        "section": "consentimiento",
+        "block_ids": "B006",
+        "bbox": null
+      }
+    ]
+  },
+  {
+    "query": "Consta el certificado de discapacidad de un descendiente mayor de 26 anos a cargo?",
+    "top_k": 3,
+    "citations": [
+      {
+        "chunk_id": "DOC-0004-P01-C001",
+        "score": 0.7081477301863679,
+        "text": "Documento oficial que acredita que Alonso Goñi Mancebo es pensionista o trabajador por cuenta ajena en el país de procedencia.",
+        "document_id": "DOC-0004",
+        "page_number": "1",
+        "section": "acreditacion",
+        "block_ids": "B001",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0003-P01-C001",
+        "score": 0.7039229057473896,
+        "text": "Certificado de inscripción en el Padrón de Españoles Residentes en el Extranjero (PERE) de Alonso Goñi Mancebo.",
+        "document_id": "DOC-0003",
+        "page_number": "1",
+        "section": "acreditacion",
+        "block_ids": "B001",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0001-P01-C001",
+        "score": 0.7037352148219671,
+        "text": "Solicitud de asistencia sanitaria para migrantes en estancia temporal en España (formulario C-157)\nDNI del solicitante: 43101783J\nNombre y apellidos: Alonso Goñi Mancebo\nNUSS: 488534555568",
+        "document_id": "DOC-0001",
+        "page_number": "1",
+        "section": "datos_solicitante",
+        "block_ids": "B002,B003,B004",
+        "bbox": null
+      }
+    ]
+  },
+  {
+    "query": "Da el solicitante su consentimiento para consultar datos de otras administraciones?",
+    "top_k": 3,
+    "citations": [
+      {
+        "chunk_id": "DOC-0001-P01-C003",
+        "score": 0.8231343329833554,
+        "text": "Declaro que son ciertos los datos incluidos en esta solicitud. Doy mi consentimiento para consultar y recabar electrónicamente los datos en poder de otras administraciones.",
+        "document_id": "DOC-0001",
+        "page_number": "1",
+        "section": "consentimiento",
+        "block_ids": "B006",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0001-P01-C001",
+        "score": 0.7376258823167836,
+        "text": "Solicitud de asistencia sanitaria para migrantes en estancia temporal en España (formulario C-157)\nDNI del solicitante: 43101783J\nNombre y apellidos: Alonso Goñi Mancebo\nNUSS: 488534555568",
+        "document_id": "DOC-0001",
+        "page_number": "1",
+        "section": "datos_solicitante",
+        "block_ids": "B002,B003,B004",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0001-P01-C004",
+        "score": 0.7288935677184052,
+        "text": "Firma manuscrita del solicitante presente al pie del documento.",
+        "document_id": "DOC-0001",
+        "page_number": "1",
+        "section": "cierre",
+        "block_ids": "B007",
+        "bbox": null
+      }
+    ]
+  }
+]

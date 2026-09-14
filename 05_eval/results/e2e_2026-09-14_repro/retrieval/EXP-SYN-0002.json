@@ -1,0 +1,290 @@
+[
+  {
+    "query": "Consta el formulario de solicitud de asistencia sanitaria para migrantes en estancia temporal?",
+    "top_k": 3,
+    "citations": [
+      {
+        "chunk_id": "DOC-0001-P01-C001",
+        "score": 0.8229719149086723,
+        "text": "Solicitud de asistencia sanitaria para migrantes en estancia temporal en España (formulario C-157)\nDNI del solicitante: 55176955R\nNombre y apellidos: Nilo Bonet Roca\nNUSS: 072244813648",
+        "document_id": "DOC-0001",
+        "page_number": "1",
+        "section": "datos_solicitante",
+        "block_ids": "B002,B003,B004",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0001-P01-C002",
+        "score": 0.8132077300623686,
+        "text": "Motivo de la solicitud: asistencia sanitaria durante la estancia temporal en España del pensionista español de origen residente en el extranjero.",
+        "document_id": "DOC-0001",
+        "page_number": "1",
+        "section": "alegaciones",
+        "block_ids": "B005",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0001-P01-C003",
+        "score": 0.7400801555082651,
+        "text": "Declaro que son ciertos los datos incluidos en esta solicitud. Doy mi consentimiento para consultar y recabar electrónicamente los datos en poder de otras administraciones.",
+        "document_id": "DOC-0001",
+        "page_number": "1",
+        "section": "consentimiento",
+        "block_ids": "B006",
+        "bbox": null
+      }
+    ]
+  },
+  {
+    "query": "Cual es el DNI, NIE o pasaporte del solicitante?",
+    "top_k": 3,
+    "citations": [
+      {
+        "chunk_id": "DOC-0001-P01-C001",
+        "score": 0.7425994032886353,
+        "text": "Solicitud de asistencia sanitaria para migrantes en estancia temporal en España (formulario C-157)\nDNI del solicitante: 55176955R\nNombre y apellidos: Nilo Bonet Roca\nNUSS: 072244813648",
+        "document_id": "DOC-0001",
+        "page_number": "1",
+        "section": "datos_solicitante",
+        "block_ids": "B002,B003,B004",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0002-P01-C001",
+        "score": 0.7355665624029137,
+        "text": "Certificación literal de nacimiento de Nilo Bonet Roca (DNI 55176955R) que acredita la nacionalidad española de origen.",
+        "document_id": "DOC-0002",
+        "page_number": "1",
+        "section": "acreditacion",
+        "block_ids": "B001",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0003-P01-C001",
+        "score": 0.7160069271220003,
+        "text": "Certificado de inscripción en el Padrón de Españoles Residentes en el Extranjero (PERE) de Nilo Bonet Roca.",
+        "document_id": "DOC-0003",
+        "page_number": "1",
+        "section": "acreditacion",
+        "block_ids": "B001",
+        "bbox": null
+      }
+    ]
+  },
+  {
+    "query": "Consta la certificacion literal de nacimiento que acredita la nacionalidad espanola de origen?",
+    "top_k": 3,
+    "citations": [
+      {
+        "chunk_id": "DOC-0002-P01-C001",
+        "score": 0.8123956413866571,
+        "text": "Certificación literal de nacimiento de Nilo Bonet Roca (DNI 55176955R) que acredita la nacionalidad española de origen.",
+        "document_id": "DOC-0002",
+        "page_number": "1",
+        "section": "acreditacion",
+        "block_ids": "B001",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0003-P01-C001",
+        "score": 0.7499035704523935,
+        "text": "Certificado de inscripción en el Padrón de Españoles Residentes en el Extranjero (PERE) de Nilo Bonet Roca.",
+        "document_id": "DOC-0003",
+        "page_number": "1",
+        "section": "acreditacion",
+        "block_ids": "B001",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0004-P01-C001",
+        "score": 0.7301321840677537,
+        "text": "Documento oficial que acredita que Nilo Bonet Roca es pensionista o trabajador por cuenta ajena en el país de procedencia.",
+        "document_id": "DOC-0004",
+        "page_number": "1",
+        "section": "acreditacion",
+        "block_ids": "B001",
+        "bbox": null
+      }
+    ]
+  },
+  {
+    "query": "Consta el certificado de inscripcion en el Padron de Espanoles Residentes en el Extranjero?",
+    "top_k": 3,
+    "citations": [
+      {
+        "chunk_id": "DOC-0003-P01-C001",
+        "score": 0.7953525192291886,
+        "text": "Certificado de inscripción en el Padrón de Españoles Residentes en el Extranjero (PERE) de Nilo Bonet Roca.",
+        "document_id": "DOC-0003",
+        "page_number": "1",
+        "section": "acreditacion",
+        "block_ids": "B001",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0001-P01-C002",
+        "score": 0.7431654248168453,
+        "text": "Motivo de la solicitud: asistencia sanitaria durante la estancia temporal en España del pensionista español de origen residente en el extranjero.",
+        "document_id": "DOC-0001",
+        "page_number": "1",
+        "section": "alegaciones",
+        "block_ids": "B005",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0002-P01-C001",
+        "score": 0.7369984697206918,
+        "text": "Certificación literal de nacimiento de Nilo Bonet Roca (DNI 55176955R) que acredita la nacionalidad española de origen.",
+        "document_id": "DOC-0002",
+        "page_number": "1",
+        "section": "acreditacion",
+        "block_ids": "B001",
+        "bbox": null
+      }
+    ]
+  },
+  {
+    "query": "Consta el documento oficial que acredita que es pensionista o trabajador en el pais de procedencia?",
+    "top_k": 3,
+    "citations": [
+      {
+        "chunk_id": "DOC-0004-P01-C001",
+        "score": 0.8148727616944677,
+        "text": "Documento oficial que acredita que Nilo Bonet Roca es pensionista o trabajador por cuenta ajena en el país de procedencia.",
+        "document_id": "DOC-0004",
+        "page_number": "1",
+        "section": "acreditacion",
+        "block_ids": "B001",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0001-P01-C002",
+        "score": 0.761976344535162,
+        "text": "Motivo de la solicitud: asistencia sanitaria durante la estancia temporal en España del pensionista español de origen residente en el extranjero.",
+        "document_id": "DOC-0001",
+        "page_number": "1",
+        "section": "alegaciones",
+        "block_ids": "B005",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0002-P01-C001",
+        "score": 0.7370144379150544,
+        "text": "Certificación literal de nacimiento de Nilo Bonet Roca (DNI 55176955R) que acredita la nacionalidad española de origen.",
+        "document_id": "DOC-0002",
+        "page_number": "1",
+        "section": "acreditacion",
+        "block_ids": "B001",
+        "bbox": null
+      }
+    ]
+  },
+  {
+    "query": "Consta el libro de familia o certificado de inscripcion de matrimonio del conyuge?",
+    "top_k": 3,
+    "citations": [
+      {
+        "chunk_id": "DOC-0005-P01-C001",
+        "score": 0.770895396866598,
+        "text": "Libro de familia y certificado de inscripción de matrimonio de Nilo Bonet Roca con Araceli Gil Guerrero.",
+        "document_id": "DOC-0005",
+        "page_number": "1",
+        "section": "acreditacion",
+        "block_ids": "B001",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0001-P01-C004",
+        "score": 0.7218867384105075,
+        "text": "Firma manuscrita del solicitante presente al pie del documento.",
+        "document_id": "DOC-0001",
+        "page_number": "1",
+        "section": "cierre",
+        "block_ids": "B007",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0001-P01-C003",
+        "score": 0.7204392518235732,
+        "text": "Declaro que son ciertos los datos incluidos en esta solicitud. Doy mi consentimiento para consultar y recabar electrónicamente los datos en poder de otras administraciones.",
+        "document_id": "DOC-0001",
+        "page_number": "1",
+        "section": "consentimiento",
+        "block_ids": "B006",
+        "bbox": null
+      }
+    ]
+  },
+  {
+    "query": "Consta el certificado de discapacidad de un descendiente mayor de 26 anos a cargo?",
+    "top_k": 3,
+    "citations": [
+      {
+        "chunk_id": "DOC-0004-P01-C001",
+        "score": 0.7042146517724692,
+        "text": "Documento oficial que acredita que Nilo Bonet Roca es pensionista o trabajador por cuenta ajena en el país de procedencia.",
+        "document_id": "DOC-0004",
+        "page_number": "1",
+        "section": "acreditacion",
+        "block_ids": "B001",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0001-P01-C003",
+        "score": 0.7032429004422414,
+        "text": "Declaro que son ciertos los datos incluidos en esta solicitud. Doy mi consentimiento para consultar y recabar electrónicamente los datos en poder de otras administraciones.",
+        "document_id": "DOC-0001",
+        "page_number": "1",
+        "section": "consentimiento",
+        "block_ids": "B006",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0003-P01-C001",
+        "score": 0.6994135783174498,
+        "text": "Certificado de inscripción en el Padrón de Españoles Residentes en el Extranjero (PERE) de Nilo Bonet Roca.",
+        "document_id": "DOC-0003",
+        "page_number": "1",
+        "section": "acreditacion",
+        "block_ids": "B001",
+        "bbox": null
+      }
+    ]
+  },
+  {
+    "query": "Da el solicitante su consentimiento para consultar datos de otras administraciones?",
+    "top_k": 3,
+    "citations": [
+      {
+        "chunk_id": "DOC-0001-P01-C003",
+        "score": 0.8250507388876575,
+        "text": "Declaro que son ciertos los datos incluidos en esta solicitud. Doy mi consentimiento para consultar y recabar electrónicamente los datos en poder de otras administraciones.",
+        "document_id": "DOC-0001",
+        "page_number": "1",
+        "section": "consentimiento",
+        "block_ids": "B006",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0001-P01-C001",
+        "score": 0.7299543642301204,
+        "text": "Solicitud de asistencia sanitaria para migrantes en estancia temporal en España (formulario C-157)\nDNI del solicitante: 55176955R\nNombre y apellidos: Nilo Bonet Roca\nNUSS: 072244813648",
+        "document_id": "DOC-0001",
+        "page_number": "1",
+        "section": "datos_solicitante",
+        "block_ids": "B002,B003,B004",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0001-P01-C004",
+        "score": 0.7294400554705938,
+        "text": "Firma manuscrita del solicitante presente al pie del documento.",
+        "document_id": "DOC-0001",
+        "page_number": "1",
+        "section": "cierre",
+        "block_ids": "B007",
+        "bbox": null
+      }
+    ]
+  }
+]

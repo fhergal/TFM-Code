@@ -1,0 +1,63 @@
+{
+  "n_cases": 20,
+  "min_score": 0.72,
+  "top_k": 3,
+  "accuracy": 0.65,
+  "confusion_matrix": {
+    "axes": "gold(fila) x pred(col)",
+    "classes": [
+      "VALIDO",
+      "INCOMPLETO",
+      "RECHAZADO"
+    ],
+    "matrix": {
+      "VALIDO": {
+        "VALIDO": 12,
+        "INCOMPLETO": 0,
+        "RECHAZADO": 0
+      },
+      "INCOMPLETO": {
+        "VALIDO": 4,
+        "INCOMPLETO": 1,
+        "RECHAZADO": 0
+      },
+      "RECHAZADO": {
+        "VALIDO": 3,
+        "INCOMPLETO": 0,
+        "RECHAZADO": 0
+      }
+    }
+  },
+  "precision_per_class": {
+    "VALIDO": 0.6316,
+    "INCOMPLETO": 1.0,
+    "RECHAZADO": 0.0
+  },
+  "recall_per_class": {
+    "VALIDO": 1.0,
+    "INCOMPLETO": 0.2,
+    "RECHAZADO": 0.0
+  },
+  "f1_per_class": {
+    "VALIDO": 0.7742,
+    "INCOMPLETO": 0.3333,
+    "RECHAZADO": 0.0
+  },
+  "f1_macro": 0.3692,
+  "retrieval_precision_at_k": 0.5078,
+  "retrieval_recall_at_k": 1.0,
+  "retrieval_at_k_n_points": 85,
+  "evidence_coverage": 0.8812,
+  "grounding_validity": 1.0,
+  "grounding_linked_total": 141,
+  "latency_ms_mean": {
+    "parser": null,
+    "normalizer": null,
+    "indexing": 5410.22,
+    "retrieval": 335.33,
+    "agent": 0.19,
+    "end_to_end": 5753.25
+  },
+  "elapsed_s": 115.07,
+  "errors": []
+}

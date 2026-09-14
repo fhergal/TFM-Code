@@ -335,7 +335,7 @@ importa nada del backend concreto de un componente aguas arriba.
 | C4 Agente | `tests/agent/` | ✅ Salida validada contra el schema |
 | C5 UI | `tests/ui/test_pipeline.py` | ✅ e2e: carga caso → recupera → agente → 8 evidencias |
 
-**Total: 36/36 tests en verde** (excluyendo `test_index_store.py`, pendiente de ejecutar en entorno
+**Total: 38/39 tests en verde**, 1 `skip` (`test_index_store.py`, pendiente de ejecutar en entorno
 con las dependencias pesadas instaladas).
 
 ---

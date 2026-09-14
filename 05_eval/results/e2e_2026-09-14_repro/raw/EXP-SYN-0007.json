@@ -1,0 +1,285 @@
+{
+  "schema_version": "1.1",
+  "case_id": "EXP-SYN-0007",
+  "procedure_type": "aex_gestprestaciones_bada",
+  "source_batch_id": "synthetic-v1-fase1",
+  "case_context": {
+    "domain": "asistencia_sanitaria_migrantes",
+    "language_expected": [
+      "es"
+    ],
+    "country": "ES"
+  },
+  "expected_document_map": [
+    {
+      "document_type": "ae_ciu_sol_prestacion",
+      "required": true
+    },
+    {
+      "document_type": "ae_con_cer_rgecivil",
+      "required": true
+    },
+    {
+      "document_type": "ae_ciu_acr_residencia",
+      "required": true
+    },
+    {
+      "document_type": "ae_ciu_acr_acreditativo",
+      "required": true
+    },
+    {
+      "document_type": "ae_con_cer_vinculoconyugal",
+      "required": "condicional"
+    },
+    {
+      "document_type": "ae_con_cer_discapacidad",
+      "required": "condicional"
+    }
+  ],
+  "document_inventory": [
+    {
+      "document_id": "DOC-0001",
+      "document_type_pred": "ae_ciu_sol_prestacion",
+      "document_type_gold": "ae_ciu_sol_prestacion",
+      "origin": {
+        "source_format": "scan",
+        "file_name": "C-157_solicitud.pdf",
+        "page_count": 1
+      },
+      "document_metadata": {
+        "issuer_org": "INSS",
+        "language": "es",
+        "signature_status": "firma_manuscrita"
+      },
+      "pages": [
+        {
+          "page_number": 1,
+          "blocks": [
+            {
+              "block_id": "B001",
+              "block_type": "title",
+              "text": "Solicitud de asistencia sanitaria para migrantes en estancia temporal en España (formulario C-157)",
+              "normalized_text": "Solicitud de asistencia sanitaria para migrantes en estancia temporal en España (formulario C-157)",
+              "bbox": {
+                "x0": 100,
+                "y0": 60,
+                "x1": 900,
+                "y1": 120,
+                "unit": "pixel"
+              },
+              "reading_order": 1,
+              "semantics": {
+                "section": "cabecera",
+                "required_for_bastanteo": false
+              }
+            },
+            {
+              "block_id": "B002",
+              "block_type": "form_field",
+              "text": "DNI del solicitante: 81691040P",
+              "normalized_text": "DNI del solicitante: 81691040P",
+              "bbox": {
+                "x0": 412,
+                "y0": 826,
+                "x1": 890,
+                "y1": 904,
+                "unit": "pixel"
+              },
+              "reading_order": 2,
+              "semantics": {
+                "section": "datos_solicitante",
+                "required_for_bastanteo": true,
+                "entity_type": "dni"
+              },
+              "label": "DNI"
+            },
+            {
+              "block_id": "B003",
+              "block_type": "form_field",
+              "text": "Nombre y apellidos: Atilio Palomar Núñez",
+              "normalized_text": "Nombre y apellidos: Atilio Palomar Núñez",
+              "bbox": {
+                "x0": 100,
+                "y0": 700,
+                "x1": 900,
+                "y1": 760,
+                "unit": "pixel"
+              },
+              "reading_order": 3,
+              "semantics": {
+                "section": "datos_solicitante",
+                "required_for_bastanteo": true,
+                "entity_type": "person_name"
+              },
+              "label": "Nombre"
+            },
+            {
+              "block_id": "B004",
+              "block_type": "form_field",
+              "text": "NUSS: 474285796620",
+              "normalized_text": "NUSS: 474285796620",
+              "bbox": {
+                "x0": 100,
+                "y0": 780,
+                "x1": 900,
+                "y1": 820,
+                "unit": "pixel"
+              },
+              "reading_order": 4,
+              "semantics": {
+                "section": "datos_solicitante",
+                "required_for_bastanteo": false,
+                "entity_type": "nuss"
+              },
+              "label": "NUSS"
+            },
+            {
+              "block_id": "B005",
+              "block_type": "paragraph",
+              "text": "Motivo de la solicitud: asistencia sanitaria durante la estancia temporal en España del pensionista español de origen residente en el extranjero.",
+              "normalized_text": "Motivo de la solicitud: asistencia sanitaria durante la estancia temporal en España del pensionista español de origen residente en el extranjero.",
+              "bbox": {
+                "x0": 100,
+                "y0": 950,
+                "x1": 900,
+                "y1": 1000,
+                "unit": "pixel"
+              },
+              "reading_order": 5,
+              "semantics": {
+                "section": "alegaciones",
+                "required_for_bastanteo": false
+              }
+            },
+            {
+              "block_id": "B006",
+              "block_type": "paragraph",
+              "text": "Declaro que son ciertos los datos incluidos en esta solicitud. Doy mi consentimiento para consultar y recabar electrónicamente los datos en poder de otras administraciones.",
+              "normalized_text": "Declaro que son ciertos los datos incluidos en esta solicitud. Doy mi consentimiento para consultar y recabar electrónicamente los datos en poder de otras administraciones.",
+              "bbox": {
+                "x0": 100,
+                "y0": 1050,
+                "x1": 900,
+                "y1": 1120,
+                "unit": "pixel"
+              },
+              "reading_order": 6,
+              "semantics": {
+                "section": "consentimiento",
+                "required_for_bastanteo": false
+              }
+            },
+            {
+              "block_id": "B007",
+              "block_type": "signature",
+              "text": "Firma manuscrita del solicitante presente al pie del documento.",
+              "normalized_text": "Firma manuscrita del solicitante presente al pie del documento.",
+              "bbox": {
+                "x0": 700,
+                "y0": 3100,
+                "x1": 950,
+                "y1": 3300,
+                "unit": "pixel"
+              },
+              "reading_order": 7,
+              "semantics": {
+                "section": "cierre",
+                "required_for_bastanteo": false,
+                "entity_type": "signature_presence"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "document_id": "DOC-0003",
+      "document_type_pred": "ae_ciu_acr_residencia",
+      "document_type_gold": "ae_ciu_acr_residencia",
+      "origin": {
+        "source_format": "scan",
+        "file_name": "certificado_padron.pdf",
+        "page_count": 1
+      },
+      "document_metadata": {
+        "issuer_org": "Consulado de España",
+        "language": "es"
+      },
+      "pages": [
+        {
+          "page_number": 1,
+          "blocks": [
+            {
+              "block_id": "B001",
+              "block_type": "paragraph",
+              "text": "Certificado de inscripción en el Padrón de Españoles Residentes en el Extranjero (PERE) de Atilio Palomar Núñez.",
+              "normalized_text": "Certificado de inscripción en el Padrón de Españoles Residentes en el Extranjero (PERE) de Atilio Palomar Núñez.",
+              "bbox": {
+                "x0": 100,
+                "y0": 100,
+                "x1": 900,
+                "y1": 150,
+                "unit": "pixel"
+              },
+              "reading_order": 1,
+              "semantics": {
+                "section": "acreditacion",
+                "required_for_bastanteo": false,
+                "entity_type": "address"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "document_id": "DOC-0004",
+      "document_type_pred": "ae_ciu_acr_acreditativo",
+      "document_type_gold": "ae_ciu_acr_acreditativo",
+      "origin": {
+        "source_format": "scan",
+        "file_name": "certificado_laboral.pdf",
+        "page_count": 1
+      },
+      "document_metadata": {
+        "issuer_org": "Consejería de Trabajo",
+        "language": "es"
+      },
+      "pages": [
+        {
+          "page_number": 1,
+          "blocks": [
+            {
+              "block_id": "B001",
+              "block_type": "paragraph",
+              "text": "Documento oficial que acredita que Atilio Palomar Núñez es pensionista o trabajador por cuenta ajena en el país de procedencia.",
+              "normalized_text": "Documento oficial que acredita que Atilio Palomar Núñez es pensionista o trabajador por cuenta ajena en el país de procedencia.",
+              "bbox": {
+                "x0": 100,
+                "y0": 100,
+                "x1": 900,
+                "y1": 150,
+                "unit": "pixel"
+              },
+              "reading_order": 1,
+              "semantics": {
+                "section": "acreditacion",
+                "required_for_bastanteo": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "bastanteo_gold": {
+    "status": "INCOMPLETO",
+    "notes": "Faltan documentos obligatorios: ae_con_cer_rgecivil."
+  },
+  "_gen_meta": {
+    "escenario": "incompleto",
+    "has_spouse": false,
+    "has_dependent_disability": false,
+    "persona_dni": "81691040P"
+  }
+}

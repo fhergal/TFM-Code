@@ -1,0 +1,425 @@
+{
+  "retriever": "real (ChromaDB + intfloat/multilingual-e5-small)",
+  "n_cases": 20,
+  "top_k": 3,
+  "sweep": [
+    {
+      "min_score": 0.55,
+      "status_accuracy_global": 0.6,
+      "scenario_accuracy": {
+        "VALIDO": 1.0,
+        "INCOMPLETO": 0.0,
+        "RECHAZADO": 0.0
+      },
+      "latency_mean_ms": 0.077
+    },
+    {
+      "min_score": 0.56,
+      "status_accuracy_global": 0.6,
+      "scenario_accuracy": {
+        "VALIDO": 1.0,
+        "INCOMPLETO": 0.0,
+        "RECHAZADO": 0.0
+      },
+      "latency_mean_ms": 0.0615
+    },
+    {
+      "min_score": 0.57,
+      "status_accuracy_global": 0.6,
+      "scenario_accuracy": {
+        "VALIDO": 1.0,
+        "INCOMPLETO": 0.0,
+        "RECHAZADO": 0.0
+      },
+      "latency_mean_ms": 0.0589
+    },
+    {
+      "min_score": 0.58,
+      "status_accuracy_global": 0.6,
+      "scenario_accuracy": {
+        "VALIDO": 1.0,
+        "INCOMPLETO": 0.0,
+        "RECHAZADO": 0.0
+      },
+      "latency_mean_ms": 0.0634
+    },
+    {
+      "min_score": 0.59,
+      "status_accuracy_global": 0.6,
+      "scenario_accuracy": {
+        "VALIDO": 1.0,
+        "INCOMPLETO": 0.0,
+        "RECHAZADO": 0.0
+      },
+      "latency_mean_ms": 0.0594
+    },
+    {
+      "min_score": 0.6,
+      "status_accuracy_global": 0.6,
+      "scenario_accuracy": {
+        "VALIDO": 1.0,
+        "INCOMPLETO": 0.0,
+        "RECHAZADO": 0.0
+      },
+      "latency_mean_ms": 0.0618
+    },
+    {
+      "min_score": 0.61,
+      "status_accuracy_global": 0.6,
+      "scenario_accuracy": {
+        "VALIDO": 1.0,
+        "INCOMPLETO": 0.0,
+        "RECHAZADO": 0.0
+      },
+      "latency_mean_ms": 0.064
+    },
+    {
+      "min_score": 0.62,
+      "status_accuracy_global": 0.6,
+      "scenario_accuracy": {
+        "VALIDO": 1.0,
+        "INCOMPLETO": 0.0,
+        "RECHAZADO": 0.0
+      },
+      "latency_mean_ms": 0.084
+    },
+    {
+      "min_score": 0.63,
+      "status_accuracy_global": 0.6,
+      "scenario_accuracy": {
+        "VALIDO": 1.0,
+        "INCOMPLETO": 0.0,
+        "RECHAZADO": 0.0
+      },
+      "latency_mean_ms": 0.0655
+    },
+    {
+      "min_score": 0.64,
+      "status_accuracy_global": 0.6,
+      "scenario_accuracy": {
+        "VALIDO": 1.0,
+        "INCOMPLETO": 0.0,
+        "RECHAZADO": 0.0
+      },
+      "latency_mean_ms": 0.074
+    },
+    {
+      "min_score": 0.65,
+      "status_accuracy_global": 0.6,
+      "scenario_accuracy": {
+        "VALIDO": 1.0,
+        "INCOMPLETO": 0.0,
+        "RECHAZADO": 0.0
+      },
+      "latency_mean_ms": 0.0553
+    },
+    {
+      "min_score": 0.66,
+      "status_accuracy_global": 0.6,
+      "scenario_accuracy": {
+        "VALIDO": 1.0,
+        "INCOMPLETO": 0.0,
+        "RECHAZADO": 0.0
+      },
+      "latency_mean_ms": 0.0602
+    },
+    {
+      "min_score": 0.67,
+      "status_accuracy_global": 0.6,
+      "scenario_accuracy": {
+        "VALIDO": 1.0,
+        "INCOMPLETO": 0.0,
+        "RECHAZADO": 0.0
+      },
+      "latency_mean_ms": 0.0598
+    },
+    {
+      "min_score": 0.68,
+      "status_accuracy_global": 0.6,
+      "scenario_accuracy": {
+        "VALIDO": 1.0,
+        "INCOMPLETO": 0.0,
+        "RECHAZADO": 0.0
+      },
+      "latency_mean_ms": 0.0603
+    },
+    {
+      "min_score": 0.69,
+      "status_accuracy_global": 0.6,
+      "scenario_accuracy": {
+        "VALIDO": 1.0,
+        "INCOMPLETO": 0.0,
+        "RECHAZADO": 0.0
+      },
+      "latency_mean_ms": 0.0589
+    },
+    {
+      "min_score": 0.7,
+      "status_accuracy_global": 0.6,
+      "scenario_accuracy": {
+        "VALIDO": 1.0,
+        "INCOMPLETO": 0.0,
+        "RECHAZADO": 0.0
+      },
+      "latency_mean_ms": 0.0578
+    },
+    {
+      "min_score": 0.71,
+      "status_accuracy_global": 0.6,
+      "scenario_accuracy": {
+        "VALIDO": 1.0,
+        "INCOMPLETO": 0.0,
+        "RECHAZADO": 0.0
+      },
+      "latency_mean_ms": 0.0604
+    },
+    {
+      "min_score": 0.72,
+      "status_accuracy_global": 0.65,
+      "scenario_accuracy": {
+        "VALIDO": 1.0,
+        "INCOMPLETO": 0.2,
+        "RECHAZADO": 0.0
+      },
+      "latency_mean_ms": 0.059
+    },
+    {
+      "min_score": 0.73,
+      "status_accuracy_global": 0.65,
+      "scenario_accuracy": {
+        "VALIDO": 1.0,
+        "INCOMPLETO": 0.2,
+        "RECHAZADO": 0.0
+      },
+      "latency_mean_ms": 0.0576
+    },
+    {
+      "min_score": 0.74,
+      "status_accuracy_global": 0.3,
+      "scenario_accuracy": {
+        "VALIDO": 0.3333333333333333,
+        "INCOMPLETO": 0.4,
+        "RECHAZADO": 0.0
+      },
+      "latency_mean_ms": 0.0597
+    },
+    {
+      "min_score": 0.75,
+      "status_accuracy_global": 0.25,
+      "scenario_accuracy": {
+        "VALIDO": 0.0,
+        "INCOMPLETO": 1.0,
+        "RECHAZADO": 0.0
+      },
+      "latency_mean_ms": 0.0726
+    },
+    {
+      "min_score": 0.76,
+      "status_accuracy_global": 0.25,
+      "scenario_accuracy": {
+        "VALIDO": 0.0,
+        "INCOMPLETO": 1.0,
+        "RECHAZADO": 0.0
+      },
+      "latency_mean_ms": 0.0704
+    },
+    {
+      "min_score": 0.77,
+      "status_accuracy_global": 0.25,
+      "scenario_accuracy": {
+        "VALIDO": 0.0,
+        "INCOMPLETO": 1.0,
+        "RECHAZADO": 0.0
+      },
+      "latency_mean_ms": 0.0761
+    },
+    {
+      "min_score": 0.78,
+      "status_accuracy_global": 0.25,
+      "scenario_accuracy": {
+        "VALIDO": 0.0,
+        "INCOMPLETO": 1.0,
+        "RECHAZADO": 0.0
+      },
+      "latency_mean_ms": 0.0704
+    },
+    {
+      "min_score": 0.79,
+      "status_accuracy_global": 0.25,
+      "scenario_accuracy": {
+        "VALIDO": 0.0,
+        "INCOMPLETO": 1.0,
+        "RECHAZADO": 0.0
+      },
+      "latency_mean_ms": 0.0663
+    },
+    {
+      "min_score": 0.8,
+      "status_accuracy_global": 0.25,
+      "scenario_accuracy": {
+        "VALIDO": 0.0,
+        "INCOMPLETO": 1.0,
+        "RECHAZADO": 0.0
+      },
+      "latency_mean_ms": 0.0664
+    },
+    {
+      "min_score": 0.81,
+      "status_accuracy_global": 0.25,
+      "scenario_accuracy": {
+        "VALIDO": 0.0,
+        "INCOMPLETO": 1.0,
+        "RECHAZADO": 0.0
+      },
+      "latency_mean_ms": 0.065
+    },
+    {
+      "min_score": 0.82,
+      "status_accuracy_global": 0.25,
+      "scenario_accuracy": {
+        "VALIDO": 0.0,
+        "INCOMPLETO": 1.0,
+        "RECHAZADO": 0.0
+      },
+      "latency_mean_ms": 0.0668
+    },
+    {
+      "min_score": 0.83,
+      "status_accuracy_global": 0.25,
+      "scenario_accuracy": {
+        "VALIDO": 0.0,
+        "INCOMPLETO": 1.0,
+        "RECHAZADO": 0.0
+      },
+      "latency_mean_ms": 0.0652
+    },
+    {
+      "min_score": 0.84,
+      "status_accuracy_global": 0.25,
+      "scenario_accuracy": {
+        "VALIDO": 0.0,
+        "INCOMPLETO": 1.0,
+        "RECHAZADO": 0.0
+      },
+      "latency_mean_ms": 0.0575
+    },
+    {
+      "min_score": 0.85,
+      "status_accuracy_global": 0.25,
+      "scenario_accuracy": {
+        "VALIDO": 0.0,
+        "INCOMPLETO": 1.0,
+        "RECHAZADO": 0.0
+      },
+      "latency_mean_ms": 0.0593
+    },
+    {
+      "min_score": 0.86,
+      "status_accuracy_global": 0.25,
+      "scenario_accuracy": {
+        "VALIDO": 0.0,
+        "INCOMPLETO": 1.0,
+        "RECHAZADO": 0.0
+      },
+      "latency_mean_ms": 0.0821
+    },
+    {
+      "min_score": 0.87,
+      "status_accuracy_global": 0.25,
+      "scenario_accuracy": {
+        "VALIDO": 0.0,
+        "INCOMPLETO": 1.0,
+        "RECHAZADO": 0.0
+      },
+      "latency_mean_ms": 0.0673
+    },
+    {
+      "min_score": 0.88,
+      "status_accuracy_global": 0.25,
+      "scenario_accuracy": {
+        "VALIDO": 0.0,
+        "INCOMPLETO": 1.0,
+        "RECHAZADO": 0.0
+      },
+      "latency_mean_ms": 0.0644
+    },
+    {
+      "min_score": 0.89,
+      "status_accuracy_global": 0.25,
+      "scenario_accuracy": {
+        "VALIDO": 0.0,
+        "INCOMPLETO": 1.0,
+        "RECHAZADO": 0.0
+      },
+      "latency_mean_ms": 0.0644
+    },
+    {
+      "min_score": 0.9,
+      "status_accuracy_global": 0.25,
+      "scenario_accuracy": {
+        "VALIDO": 0.0,
+        "INCOMPLETO": 1.0,
+        "RECHAZADO": 0.0
+      },
+      "latency_mean_ms": 0.0608
+    },
+    {
+      "min_score": 0.91,
+      "status_accuracy_global": 0.25,
+      "scenario_accuracy": {
+        "VALIDO": 0.0,
+        "INCOMPLETO": 1.0,
+        "RECHAZADO": 0.0
+      },
+      "latency_mean_ms": 0.0511
+    },
+    {
+      "min_score": 0.92,
+      "status_accuracy_global": 0.25,
+      "scenario_accuracy": {
+        "VALIDO": 0.0,
+        "INCOMPLETO": 1.0,
+        "RECHAZADO": 0.0
+      },
+      "latency_mean_ms": 0.0543
+    },
+    {
+      "min_score": 0.93,
+      "status_accuracy_global": 0.25,
+      "scenario_accuracy": {
+        "VALIDO": 0.0,
+        "INCOMPLETO": 1.0,
+        "RECHAZADO": 0.0
+      },
+      "latency_mean_ms": 0.0625
+    },
+    {
+      "min_score": 0.94,
+      "status_accuracy_global": 0.25,
+      "scenario_accuracy": {
+        "VALIDO": 0.0,
+        "INCOMPLETO": 1.0,
+        "RECHAZADO": 0.0
+      },
+      "latency_mean_ms": 0.0618
+    },
+    {
+      "min_score": 0.95,
+      "status_accuracy_global": 0.25,
+      "scenario_accuracy": {
+        "VALIDO": 0.0,
+        "INCOMPLETO": 1.0,
+        "RECHAZADO": 0.0
+      },
+      "latency_mean_ms": 0.0572
+    }
+  ],
+  "best_accuracy": 0.65,
+  "plateau_range": [
+    0.72,
+    0.73
+  ],
+  "chosen_min_score": 0.72,
+  "chosen_min_score_rationale": "Centro de la meseta de accuracy maxima [0.72, 0.73] (status_accuracy_global=0.65), analogo al criterio usado en el barrido con naive_retriever pero recalculado sobre el retriever real.",
+  "known_limitation": "RuleBasedJudge nunca devuelve 'contradicted': los casos RECHAZADO (datos presentes pero contradictorios, p.ej. DNI no coincide) son estructuralmente inclasificables con este juez, para cualquier umbral. Ademas, con el retriever semantico real los scores de citas relevantes e irrelevantes se solapan en una banda estrecha (~0.70-0.83): no existe un umbral que separe limpiamente 'requisito satisfecho' de 'requisito ausente' basandose solo en el score maximo -- limitacion arquitectonica del juicio por umbral de similitud, no un problema de tuning."
+}

@@ -1,0 +1,38 @@
+{
+  "dataset_id": "BADA-synthetic-v1",
+  "dataset_version": "1",
+  "source": "03_data/synthetic_v1",
+  "source_manifest": "03_data/synthetic_v1/manifest.json",
+  "source_manifest_sha256": "9a12d242811a32548d8a74cad7ef4ea6ab7422da4dd2f8810e33b98066c945e8",
+  "generator": "03_data/generators/generador_bada.py",
+  "generator_seed": 42,
+  "generator_seed_note": "42 es la semilla documentada en el uso del generador; NO está registrada dentro del manifiesto del dataset. Confirmar que synthetic_v1 se generó con --seed 42 antes de citar reproducibilidad exacta.",
+  "n_cases": 20,
+  "label_distribution": {
+    "VALIDO": 12,
+    "INCOMPLETO": 5,
+    "RECHAZADO": 3
+  },
+  "cases": [
+    { "case_id": "EXP-SYN-0001", "file": "EXP-SYN-0001.json", "status_gold": "RECHAZADO", "n_documentos": 5 },
+    { "case_id": "EXP-SYN-0002", "file": "EXP-SYN-0002.json", "status_gold": "VALIDO", "n_documentos": 5 },
+    { "case_id": "EXP-SYN-0003", "file": "EXP-SYN-0003.json", "status_gold": "INCOMPLETO", "n_documentos": 3 },
+    { "case_id": "EXP-SYN-0004", "file": "EXP-SYN-0004.json", "status_gold": "VALIDO", "n_documentos": 4 },
+    { "case_id": "EXP-SYN-0005", "file": "EXP-SYN-0005.json", "status_gold": "VALIDO", "n_documentos": 4 },
+    { "case_id": "EXP-SYN-0006", "file": "EXP-SYN-0006.json", "status_gold": "INCOMPLETO", "n_documentos": 3 },
+    { "case_id": "EXP-SYN-0007", "file": "EXP-SYN-0007.json", "status_gold": "INCOMPLETO", "n_documentos": 3 },
+    { "case_id": "EXP-SYN-0008", "file": "EXP-SYN-0008.json", "status_gold": "RECHAZADO", "n_documentos": 4 },
+    { "case_id": "EXP-SYN-0009", "file": "EXP-SYN-0009.json", "status_gold": "VALIDO", "n_documentos": 5 },
+    { "case_id": "EXP-SYN-0010", "file": "EXP-SYN-0010.json", "status_gold": "INCOMPLETO", "n_documentos": 4 },
+    { "case_id": "EXP-SYN-0011", "file": "EXP-SYN-0011.json", "status_gold": "RECHAZADO", "n_documentos": 6 },
+    { "case_id": "EXP-SYN-0012", "file": "EXP-SYN-0012.json", "status_gold": "VALIDO", "n_documentos": 4 },
+    { "case_id": "EXP-SYN-0013", "file": "EXP-SYN-0013.json", "status_gold": "VALIDO", "n_documentos": 4 },
+    { "case_id": "EXP-SYN-0014", "file": "EXP-SYN-0014.json", "status_gold": "VALIDO", "n_documentos": 4 },
+    { "case_id": "EXP-SYN-0015", "file": "EXP-SYN-0015.json", "status_gold": "VALIDO", "n_documentos": 5 },
+    { "case_id": "EXP-SYN-0016", "file": "EXP-SYN-0016.json", "status_gold": "INCOMPLETO", "n_documentos": 4 },
+    { "case_id": "EXP-SYN-0017", "file": "EXP-SYN-0017.json", "status_gold": "VALIDO", "n_documentos": 5 },
+    { "case_id": "EXP-SYN-0018", "file": "EXP-SYN-0018.json", "status_gold": "VALIDO", "n_documentos": 4 },
+    { "case_id": "EXP-SYN-0019", "file": "EXP-SYN-0019.json", "status_gold": "VALIDO", "n_documentos": 5 },
+    { "case_id": "EXP-SYN-0020", "file": "EXP-SYN-0020.json", "status_gold": "VALIDO", "n_documentos": 4 }
+  ]
+}

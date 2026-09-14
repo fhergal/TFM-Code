@@ -1,0 +1,86 @@
+[
+  {
+    "chunk_id": "DOC-0001-P01-C001",
+    "text": "Solicitud de asistencia sanitaria para migrantes en estancia temporal en España (formulario C-157)\nDNI del solicitante: 63843426A\nNombre y apellidos: Sancho Aroca Segovia\nNUSS: 501750786429",
+    "metadata": {
+      "case_id": "EXP-SYN-0008",
+      "document_id": "DOC-0001",
+      "page_number": "1",
+      "section": "datos_solicitante",
+      "block_ids": "B002,B003,B004",
+      "block_types": "form_field"
+    }
+  },
+  {
+    "chunk_id": "DOC-0001-P01-C002",
+    "text": "Motivo de la solicitud: asistencia sanitaria durante la estancia temporal en España del pensionista español de origen residente en el extranjero.",
+    "metadata": {
+      "case_id": "EXP-SYN-0008",
+      "document_id": "DOC-0001",
+      "page_number": "1",
+      "section": "alegaciones",
+      "block_ids": "B005",
+      "block_types": "paragraph"
+    }
+  },
+  {
+    "chunk_id": "DOC-0001-P01-C003",
+    "text": "Declaro que son ciertos los datos incluidos en esta solicitud. Doy mi consentimiento para consultar y recabar electrónicamente los datos en poder de otras administraciones.",
+    "metadata": {
+      "case_id": "EXP-SYN-0008",
+      "document_id": "DOC-0001",
+      "page_number": "1",
+      "section": "consentimiento",
+      "block_ids": "B006",
+      "block_types": "paragraph"
+    }
+  },
+  {
+    "chunk_id": "DOC-0001-P01-C004",
+    "text": "Firma manuscrita del solicitante presente al pie del documento.",
+    "metadata": {
+      "case_id": "EXP-SYN-0008",
+      "document_id": "DOC-0001",
+      "page_number": "1",
+      "section": "cierre",
+      "block_ids": "B007",
+      "block_types": "signature"
+    }
+  },
+  {
+    "chunk_id": "DOC-0002-P01-C001",
+    "text": "Certificación literal de nacimiento de Sancho Aroca Segovia (DNI 53524491H) que acredita la nacionalidad española de origen.",
+    "metadata": {
+      "case_id": "EXP-SYN-0008",
+      "document_id": "DOC-0002",
+      "page_number": "1",
+      "section": "acreditacion",
+      "block_ids": "B001",
+      "block_types": "paragraph"
+    }
+  },
+  {
+    "chunk_id": "DOC-0003-P01-C001",
+    "text": "Certificado de inscripción en el Padrón de Españoles Residentes en el Extranjero (PERE) de Sancho Aroca Segovia.",
+    "metadata": {
+      "case_id": "EXP-SYN-0008",
+      "document_id": "DOC-0003",
+      "page_number": "1",
+      "section": "acreditacion",
+      "block_ids": "B001",
+      "block_types": "paragraph"
+    }
+  },
+  {
+    "chunk_id": "DOC-0004-P01-C001",
+    "text": "Documento oficial que acredita que Sancho Aroca Segovia es pensionista o trabajador por cuenta ajena en el país de procedencia.",
+    "metadata": {
+      "case_id": "EXP-SYN-0008",
+      "document_id": "DOC-0004",
+      "page_number": "1",
+      "section": "acreditacion",
+      "block_ids": "B001",
+      "block_types": "paragraph"
+    }
+  }
+]
