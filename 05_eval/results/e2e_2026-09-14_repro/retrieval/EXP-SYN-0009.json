@@ -1,0 +1,290 @@
+[
+  {
+    "query": "Consta el formulario de solicitud de asistencia sanitaria para migrantes en estancia temporal?",
+    "top_k": 3,
+    "citations": [
+      {
+        "chunk_id": "DOC-0001-P01-C001",
+        "score": 0.8281729320918717,
+        "text": "Solicitud de asistencia sanitaria para migrantes en estancia temporal en España (formulario C-157)\nDNI del solicitante: 18883684V\nNombre y apellidos: Ámbar Pinedo Bermúdez\nNUSS: 148612561791",
+        "document_id": "DOC-0001",
+        "page_number": "1",
+        "section": "datos_solicitante",
+        "block_ids": "B002,B003,B004",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0001-P01-C002",
+        "score": 0.8126468237842159,
+        "text": "Motivo de la solicitud: asistencia sanitaria durante la estancia temporal en España del pensionista español de origen residente en el extranjero.",
+        "document_id": "DOC-0001",
+        "page_number": "1",
+        "section": "alegaciones",
+        "block_ids": "B005",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0001-P01-C003",
+        "score": 0.7404271794118704,
+        "text": "Declaro que son ciertos los datos incluidos en esta solicitud. Doy mi consentimiento para consultar y recabar electrónicamente los datos en poder de otras administraciones.",
+        "document_id": "DOC-0001",
+        "page_number": "1",
+        "section": "consentimiento",
+        "block_ids": "B006",
+        "bbox": null
+      }
+    ]
+  },
+  {
+    "query": "Cual es el DNI, NIE o pasaporte del solicitante?",
+    "top_k": 3,
+    "citations": [
+      {
+        "chunk_id": "DOC-0001-P01-C001",
+        "score": 0.7400511743506167,
+        "text": "Solicitud de asistencia sanitaria para migrantes en estancia temporal en España (formulario C-157)\nDNI del solicitante: 18883684V\nNombre y apellidos: Ámbar Pinedo Bermúdez\nNUSS: 148612561791",
+        "document_id": "DOC-0001",
+        "page_number": "1",
+        "section": "datos_solicitante",
+        "block_ids": "B002,B003,B004",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0002-P01-C001",
+        "score": 0.7394146251630287,
+        "text": "Certificación literal de nacimiento de Ámbar Pinedo Bermúdez (DNI 18883684V) que acredita la nacionalidad española de origen.",
+        "document_id": "DOC-0002",
+        "page_number": "1",
+        "section": "acreditacion",
+        "block_ids": "B001",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0003-P01-C001",
+        "score": 0.7145629889422739,
+        "text": "Certificado de inscripción en el Padrón de Españoles Residentes en el Extranjero (PERE) de Ámbar Pinedo Bermúdez.",
+        "document_id": "DOC-0003",
+        "page_number": "1",
+        "section": "acreditacion",
+        "block_ids": "B001",
+        "bbox": null
+      }
+    ]
+  },
+  {
+    "query": "Consta la certificacion literal de nacimiento que acredita la nacionalidad espanola de origen?",
+    "top_k": 3,
+    "citations": [
+      {
+        "chunk_id": "DOC-0002-P01-C001",
+        "score": 0.8078937748886013,
+        "text": "Certificación literal de nacimiento de Ámbar Pinedo Bermúdez (DNI 18883684V) que acredita la nacionalidad española de origen.",
+        "document_id": "DOC-0002",
+        "page_number": "1",
+        "section": "acreditacion",
+        "block_ids": "B001",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0003-P01-C001",
+        "score": 0.7406566398352432,
+        "text": "Certificado de inscripción en el Padrón de Españoles Residentes en el Extranjero (PERE) de Ámbar Pinedo Bermúdez.",
+        "document_id": "DOC-0003",
+        "page_number": "1",
+        "section": "acreditacion",
+        "block_ids": "B001",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0001-P01-C001",
+        "score": 0.7203251652239819,
+        "text": "Solicitud de asistencia sanitaria para migrantes en estancia temporal en España (formulario C-157)\nDNI del solicitante: 18883684V\nNombre y apellidos: Ámbar Pinedo Bermúdez\nNUSS: 148612561791",
+        "document_id": "DOC-0001",
+        "page_number": "1",
+        "section": "datos_solicitante",
+        "block_ids": "B002,B003,B004",
+        "bbox": null
+      }
+    ]
+  },
+  {
+    "query": "Consta el certificado de inscripcion en el Padron de Espanoles Residentes en el Extranjero?",
+    "top_k": 3,
+    "citations": [
+      {
+        "chunk_id": "DOC-0003-P01-C001",
+        "score": 0.7916428526410011,
+        "text": "Certificado de inscripción en el Padrón de Españoles Residentes en el Extranjero (PERE) de Ámbar Pinedo Bermúdez.",
+        "document_id": "DOC-0003",
+        "page_number": "1",
+        "section": "acreditacion",
+        "block_ids": "B001",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0001-P01-C002",
+        "score": 0.7430747340633398,
+        "text": "Motivo de la solicitud: asistencia sanitaria durante la estancia temporal en España del pensionista español de origen residente en el extranjero.",
+        "document_id": "DOC-0001",
+        "page_number": "1",
+        "section": "alegaciones",
+        "block_ids": "B005",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0002-P01-C001",
+        "score": 0.741637430931824,
+        "text": "Certificación literal de nacimiento de Ámbar Pinedo Bermúdez (DNI 18883684V) que acredita la nacionalidad española de origen.",
+        "document_id": "DOC-0002",
+        "page_number": "1",
+        "section": "acreditacion",
+        "block_ids": "B001",
+        "bbox": null
+      }
+    ]
+  },
+  {
+    "query": "Consta el documento oficial que acredita que es pensionista o trabajador en el pais de procedencia?",
+    "top_k": 3,
+    "citations": [
+      {
+        "chunk_id": "DOC-0004-P01-C001",
+        "score": 0.8067145088582364,
+        "text": "Documento oficial que acredita que Ámbar Pinedo Bermúdez es pensionista o trabajador por cuenta ajena en el país de procedencia.",
+        "document_id": "DOC-0004",
+        "page_number": "1",
+        "section": "acreditacion",
+        "block_ids": "B001",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0001-P01-C002",
+        "score": 0.7613943167741881,
+        "text": "Motivo de la solicitud: asistencia sanitaria durante la estancia temporal en España del pensionista español de origen residente en el extranjero.",
+        "document_id": "DOC-0001",
+        "page_number": "1",
+        "section": "alegaciones",
+        "block_ids": "B005",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0002-P01-C001",
+        "score": 0.7452515935392072,
+        "text": "Certificación literal de nacimiento de Ámbar Pinedo Bermúdez (DNI 18883684V) que acredita la nacionalidad española de origen.",
+        "document_id": "DOC-0002",
+        "page_number": "1",
+        "section": "acreditacion",
+        "block_ids": "B001",
+        "bbox": null
+      }
+    ]
+  },
+  {
+    "query": "Consta el libro de familia o certificado de inscripcion de matrimonio del conyuge?",
+    "top_k": 3,
+    "citations": [
+      {
+        "chunk_id": "DOC-0005-P01-C001",
+        "score": 0.7669475439545927,
+        "text": "Libro de familia y certificado de inscripción de matrimonio de Ámbar Pinedo Bermúdez con Saturnina Pardo Fernandez.",
+        "document_id": "DOC-0005",
+        "page_number": "1",
+        "section": "acreditacion",
+        "block_ids": "B001",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0001-P01-C004",
+        "score": 0.7229881429151723,
+        "text": "Firma manuscrita del solicitante presente al pie del documento.",
+        "document_id": "DOC-0001",
+        "page_number": "1",
+        "section": "cierre",
+        "block_ids": "B007",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0001-P01-C003",
+        "score": 0.7212179875483264,
+        "text": "Declaro que son ciertos los datos incluidos en esta solicitud. Doy mi consentimiento para consultar y recabar electrónicamente los datos en poder de otras administraciones.",
+        "document_id": "DOC-0001",
+        "page_number": "1",
+        "section": "consentimiento",
+        "block_ids": "B006",
+        "bbox": null
+      }
+    ]
+  },
+  {
+    "query": "Consta el certificado de discapacidad de un descendiente mayor de 26 anos a cargo?",
+    "top_k": 3,
+    "citations": [
+      {
+        "chunk_id": "DOC-0001-P01-C003",
+        "score": 0.7007931313595147,
+        "text": "Declaro que son ciertos los datos incluidos en esta solicitud. Doy mi consentimiento para consultar y recabar electrónicamente los datos en poder de otras administraciones.",
+        "document_id": "DOC-0001",
+        "page_number": "1",
+        "section": "consentimiento",
+        "block_ids": "B006",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0004-P01-C001",
+        "score": 0.7007178649144484,
+        "text": "Documento oficial que acredita que Ámbar Pinedo Bermúdez es pensionista o trabajador por cuenta ajena en el país de procedencia.",
+        "document_id": "DOC-0004",
+        "page_number": "1",
+        "section": "acreditacion",
+        "block_ids": "B001",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0003-P01-C001",
+        "score": 0.7003689756573026,
+        "text": "Certificado de inscripción en el Padrón de Españoles Residentes en el Extranjero (PERE) de Ámbar Pinedo Bermúdez.",
+        "document_id": "DOC-0003",
+        "page_number": "1",
+        "section": "acreditacion",
+        "block_ids": "B001",
+        "bbox": null
+      }
+    ]
+  },
+  {
+    "query": "Da el solicitante su consentimiento para consultar datos de otras administraciones?",
+    "top_k": 3,
+    "citations": [
+      {
+        "chunk_id": "DOC-0001-P01-C003",
+        "score": 0.8249785873004303,
+        "text": "Declaro que son ciertos los datos incluidos en esta solicitud. Doy mi consentimiento para consultar y recabar electrónicamente los datos en poder de otras administraciones.",
+        "document_id": "DOC-0001",
+        "page_number": "1",
+        "section": "consentimiento",
+        "block_ids": "B006",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0001-P01-C001",
+        "score": 0.7389616100747404,
+        "text": "Solicitud de asistencia sanitaria para migrantes en estancia temporal en España (formulario C-157)\nDNI del solicitante: 18883684V\nNombre y apellidos: Ámbar Pinedo Bermúdez\nNUSS: 148612561791",
+        "document_id": "DOC-0001",
+        "page_number": "1",
+        "section": "datos_solicitante",
+        "block_ids": "B002,B003,B004",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0001-P01-C004",
+        "score": 0.7303691414135421,
+        "text": "Firma manuscrita del solicitante presente al pie del documento.",
+        "document_id": "DOC-0001",
+        "page_number": "1",
+        "section": "cierre",
+        "block_ids": "B007",
+        "bbox": null
+      }
+    ]
+  }
+]

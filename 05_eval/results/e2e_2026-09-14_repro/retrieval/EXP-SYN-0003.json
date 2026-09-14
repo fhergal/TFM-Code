@@ -1,0 +1,290 @@
+[
+  {
+    "query": "Consta el formulario de solicitud de asistencia sanitaria para migrantes en estancia temporal?",
+    "top_k": 3,
+    "citations": [
+      {
+        "chunk_id": "DOC-0001-P01-C001",
+        "score": 0.8257286128184047,
+        "text": "Solicitud de asistencia sanitaria para migrantes en estancia temporal en España (formulario C-157)\nDNI del solicitante: 60806024G\nNombre y apellidos: Albert Flor Rivas\nNUSS: 068409363937",
+        "document_id": "DOC-0001",
+        "page_number": "1",
+        "section": "datos_solicitante",
+        "block_ids": "B002,B003,B004",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0001-P01-C002",
+        "score": 0.8136052890641505,
+        "text": "Motivo de la solicitud: asistencia sanitaria durante la estancia temporal en España del pensionista español de origen residente en el extranjero.",
+        "document_id": "DOC-0001",
+        "page_number": "1",
+        "section": "alegaciones",
+        "block_ids": "B005",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0001-P01-C003",
+        "score": 0.7410749142649113,
+        "text": "Declaro que son ciertos los datos incluidos en esta solicitud. Doy mi consentimiento para consultar y recabar electrónicamente los datos en poder de otras administraciones.",
+        "document_id": "DOC-0001",
+        "page_number": "1",
+        "section": "consentimiento",
+        "block_ids": "B006",
+        "bbox": null
+      }
+    ]
+  },
+  {
+    "query": "Cual es el DNI, NIE o pasaporte del solicitante?",
+    "top_k": 3,
+    "citations": [
+      {
+        "chunk_id": "DOC-0001-P01-C001",
+        "score": 0.7196168331411175,
+        "text": "Solicitud de asistencia sanitaria para migrantes en estancia temporal en España (formulario C-157)\nDNI del solicitante: 60806024G\nNombre y apellidos: Albert Flor Rivas\nNUSS: 068409363937",
+        "document_id": "DOC-0001",
+        "page_number": "1",
+        "section": "datos_solicitante",
+        "block_ids": "B002,B003,B004",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0001-P01-C003",
+        "score": 0.70958189808473,
+        "text": "Declaro que son ciertos los datos incluidos en esta solicitud. Doy mi consentimiento para consultar y recabar electrónicamente los datos en poder de otras administraciones.",
+        "document_id": "DOC-0001",
+        "page_number": "1",
+        "section": "consentimiento",
+        "block_ids": "B006",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0001-P01-C004",
+        "score": 0.7056387723090135,
+        "text": "Firma manuscrita del solicitante presente al pie del documento.",
+        "document_id": "DOC-0001",
+        "page_number": "1",
+        "section": "cierre",
+        "block_ids": "B007",
+        "bbox": null
+      }
+    ]
+  },
+  {
+    "query": "Consta la certificacion literal de nacimiento que acredita la nacionalidad espanola de origen?",
+    "top_k": 3,
+    "citations": [
+      {
+        "chunk_id": "DOC-0003-P01-C001",
+        "score": 0.7403403971520491,
+        "text": "Certificado de inscripción en el Padrón de Españoles Residentes en el Extranjero (PERE) de Albert Flor Rivas.",
+        "document_id": "DOC-0003",
+        "page_number": "1",
+        "section": "acreditacion",
+        "block_ids": "B001",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0001-P01-C001",
+        "score": 0.7103891644712116,
+        "text": "Solicitud de asistencia sanitaria para migrantes en estancia temporal en España (formulario C-157)\nDNI del solicitante: 60806024G\nNombre y apellidos: Albert Flor Rivas\nNUSS: 068409363937",
+        "document_id": "DOC-0001",
+        "page_number": "1",
+        "section": "datos_solicitante",
+        "block_ids": "B002,B003,B004",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0004-P01-C001",
+        "score": 0.7081316909883262,
+        "text": "Documento oficial que acredita que Albert Flor Rivas es pensionista o trabajador por cuenta ajena en el país de procedencia.",
+        "document_id": "DOC-0004",
+        "page_number": "1",
+        "section": "acreditacion",
+        "block_ids": "B001",
+        "bbox": null
+      }
+    ]
+  },
+  {
+    "query": "Consta el certificado de inscripcion en el Padron de Espanoles Residentes en el Extranjero?",
+    "top_k": 3,
+    "citations": [
+      {
+        "chunk_id": "DOC-0003-P01-C001",
+        "score": 0.7924145714011991,
+        "text": "Certificado de inscripción en el Padrón de Españoles Residentes en el Extranjero (PERE) de Albert Flor Rivas.",
+        "document_id": "DOC-0003",
+        "page_number": "1",
+        "section": "acreditacion",
+        "block_ids": "B001",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0001-P01-C002",
+        "score": 0.7432113170049186,
+        "text": "Motivo de la solicitud: asistencia sanitaria durante la estancia temporal en España del pensionista español de origen residente en el extranjero.",
+        "document_id": "DOC-0001",
+        "page_number": "1",
+        "section": "alegaciones",
+        "block_ids": "B005",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0001-P01-C003",
+        "score": 0.732729606058761,
+        "text": "Declaro que son ciertos los datos incluidos en esta solicitud. Doy mi consentimiento para consultar y recabar electrónicamente los datos en poder de otras administraciones.",
+        "document_id": "DOC-0001",
+        "page_number": "1",
+        "section": "consentimiento",
+        "block_ids": "B006",
+        "bbox": null
+      }
+    ]
+  },
+  {
+    "query": "Consta el documento oficial que acredita que es pensionista o trabajador en el pais de procedencia?",
+    "top_k": 3,
+    "citations": [
+      {
+        "chunk_id": "DOC-0004-P01-C001",
+        "score": 0.7989378147384298,
+        "text": "Documento oficial que acredita que Albert Flor Rivas es pensionista o trabajador por cuenta ajena en el país de procedencia.",
+        "document_id": "DOC-0004",
+        "page_number": "1",
+        "section": "acreditacion",
+        "block_ids": "B001",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0001-P01-C002",
+        "score": 0.7610437258731831,
+        "text": "Motivo de la solicitud: asistencia sanitaria durante la estancia temporal en España del pensionista español de origen residente en el extranjero.",
+        "document_id": "DOC-0001",
+        "page_number": "1",
+        "section": "alegaciones",
+        "block_ids": "B005",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0003-P01-C001",
+        "score": 0.7310340900050105,
+        "text": "Certificado de inscripción en el Padrón de Españoles Residentes en el Extranjero (PERE) de Albert Flor Rivas.",
+        "document_id": "DOC-0003",
+        "page_number": "1",
+        "section": "acreditacion",
+        "block_ids": "B001",
+        "bbox": null
+      }
+    ]
+  },
+  {
+    "query": "Consta el libro de familia o certificado de inscripcion de matrimonio del conyuge?",
+    "top_k": 3,
+    "citations": [
+      {
+        "chunk_id": "DOC-0001-P01-C004",
+        "score": 0.7210265876445632,
+        "text": "Firma manuscrita del solicitante presente al pie del documento.",
+        "document_id": "DOC-0001",
+        "page_number": "1",
+        "section": "cierre",
+        "block_ids": "B007",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0003-P01-C001",
+        "score": 0.7202770155385656,
+        "text": "Certificado de inscripción en el Padrón de Españoles Residentes en el Extranjero (PERE) de Albert Flor Rivas.",
+        "document_id": "DOC-0003",
+        "page_number": "1",
+        "section": "acreditacion",
+        "block_ids": "B001",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0001-P01-C003",
+        "score": 0.720126941407814,
+        "text": "Declaro que son ciertos los datos incluidos en esta solicitud. Doy mi consentimiento para consultar y recabar electrónicamente los datos en poder de otras administraciones.",
+        "document_id": "DOC-0001",
+        "page_number": "1",
+        "section": "consentimiento",
+        "block_ids": "B006",
+        "bbox": null
+      }
+    ]
+  },
+  {
+    "query": "Consta el certificado de discapacidad de un descendiente mayor de 26 anos a cargo?",
+    "top_k": 3,
+    "citations": [
+      {
+        "chunk_id": "DOC-0001-P01-C003",
+        "score": 0.7019362358926963,
+        "text": "Declaro que son ciertos los datos incluidos en esta solicitud. Doy mi consentimiento para consultar y recabar electrónicamente los datos en poder de otras administraciones.",
+        "document_id": "DOC-0001",
+        "page_number": "1",
+        "section": "consentimiento",
+        "block_ids": "B006",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0003-P01-C001",
+        "score": 0.6990606300517147,
+        "text": "Certificado de inscripción en el Padrón de Españoles Residentes en el Extranjero (PERE) de Albert Flor Rivas.",
+        "document_id": "DOC-0003",
+        "page_number": "1",
+        "section": "acreditacion",
+        "block_ids": "B001",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0001-P01-C001",
+        "score": 0.6946411999084284,
+        "text": "Solicitud de asistencia sanitaria para migrantes en estancia temporal en España (formulario C-157)\nDNI del solicitante: 60806024G\nNombre y apellidos: Albert Flor Rivas\nNUSS: 068409363937",
+        "document_id": "DOC-0001",
+        "page_number": "1",
+        "section": "datos_solicitante",
+        "block_ids": "B002,B003,B004",
+        "bbox": null
+      }
+    ]
+  },
+  {
+    "query": "Da el solicitante su consentimiento para consultar datos de otras administraciones?",
+    "top_k": 3,
+    "citations": [
+      {
+        "chunk_id": "DOC-0001-P01-C003",
+        "score": 0.8247596386765437,
+        "text": "Declaro que son ciertos los datos incluidos en esta solicitud. Doy mi consentimiento para consultar y recabar electrónicamente los datos en poder de otras administraciones.",
+        "document_id": "DOC-0001",
+        "page_number": "1",
+        "section": "consentimiento",
+        "block_ids": "B006",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0001-P01-C004",
+        "score": 0.7292789002721706,
+        "text": "Firma manuscrita del solicitante presente al pie del documento.",
+        "document_id": "DOC-0001",
+        "page_number": "1",
+        "section": "cierre",
+        "block_ids": "B007",
+        "bbox": null
+      },
+      {
+        "chunk_id": "DOC-0001-P01-C001",
+        "score": 0.7263905518934596,
+        "text": "Solicitud de asistencia sanitaria para migrantes en estancia temporal en España (formulario C-157)\nDNI del solicitante: 60806024G\nNombre y apellidos: Albert Flor Rivas\nNUSS: 068409363937",
+        "document_id": "DOC-0001",
+        "page_number": "1",
+        "section": "datos_solicitante",
+        "block_ids": "B002,B003,B004",
+        "bbox": null
+      }
+    ]
+  }
+]
